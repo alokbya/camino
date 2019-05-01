@@ -12,13 +12,16 @@
         <!-- Latest compiled JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
         <!-- Import local js file -->
-        <script src="script.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="ostyle.css">
+
+        <script src="oscript.js"></script>
     </head>
     <body>
         <div id="body-background" class="container-fluid">
             <div id="navbar" class="container">
-                <h1>Travel Itinerary</h1>
-                <p>Content will go here.</p>
+                <h1>Follow Along</h1>
+                <p>Find us on the map!</p>
                 <div id="map-div">    
                     <!-- Map Functionality -->
                     <div id="Map" style="height:250px"></div>
@@ -29,11 +32,36 @@
                         var dd = String(today.getDate()).padStart(2, '0');
                         var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
                         var yyyy = today.getFullYear();
+                        
+                        // Testing 
                         // mm = '06'
                         // dd='08'
+                        
+                        var zoom    = 3;
+                        var lat     = 43.163141;
+                        var long    = -1.23811;
+                        
                         // Declare lat, long variables
-                        var lat = 43.163141;
-                        var long = -1.23811;
+                        if (mm === "05"){
+                            if (dd < "04"){
+                                lat = 45.523064;
+                                long = -122.676483;
+                                // document.write("Having some issues correctly projecting onto Portland.<br>");
+                            }
+                            else if (dd >= "04" && dd <= "10"){
+                                lat = 65.350140;
+                                long = -6.266155;
+                            }
+                            else if (dd > "10"){
+                                zoom = 8;
+                            }
+                        }
+                        else if (mm == "06"){
+                            zoom = 8;
+                        }
+                        // lat = 42.6570846;
+                        // long = -2.0386075;
+                        // document.write(mm+dd);
                         // Switch case to change marker position on date
                         switch (mm+dd) {
                             case '0510':
@@ -184,7 +212,7 @@
                         // today = mm + '/' + dd + '/' + yyyy;
                         document.write(mm+dd);
                         
-                        var zoom           = 6;
+                        // var zoom           = 6;
                         var fromProjection = new OpenLayers.Projection("EPSG:4326");   // Transform from WGS 1984
                         var toProjection   = new OpenLayers.Projection("EPSG:900913"); // to Spherical Mercator Projection
                         var position       = new OpenLayers.LonLat(long, lat).transform( fromProjection, toProjection);
@@ -201,7 +229,7 @@
                     </script>
                 </div>
                 <div id="checkpoints">
-                    
+
                 </div>      
             </div>
         </div>

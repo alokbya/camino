@@ -18,117 +18,135 @@
 
 
 <body>
-    <div>
-        <img src="camino_map.jpg" alt="A map of Camino de Santiago." id=Map-Santiago>
-    </div>
+    <div class="container">
+        <div class="container-fluid">
+            <div>
+                <img src="camino_map.jpg" alt="A map of Camino de Santiago." id=Map-Santiago>
+            </div>
 
-    <div id="Title">
-        <h1>El Camino De Santiago:</h1>    
-        <h1>The Adventures of Alaaddin and Paisley!</h1>
-    </div>
+            <div id="Title">
+                <h1>El Camino De Santiago:</h1>    
+                <h1>The Adventures of Alaaddin and Paisley!</h1>
+            </div>
 
-  
+        
 
 
 
-    <div id="top-row"> 
-        <!-- This includesa picture of us and a brief Bio.-->
-        <div id="PictureAP">
-            <img src="Alaa&P.jpg" alt="A picture of Alaa & P." id="Alaa-P">
-        </div>
+            <div id="top-row"> 
+                <!-- This includesa picture of us and a brief Bio.-->
+                <div id="PictureAP">
+                    <img src="Alaa&P.jpg" alt="A picture of Alaa & P." id="Alaa-P">
+                </div>
 
-        <div>
-            <h3 id="Introduction">Alaa and Paisley will embark on a new journey across northern Spain. 
-                There will be chaffing, there will be laughing, and there will be crying... how much of each is yet to be determined. 
-                They will be departing on May 4th out of Seattle, and they will fly into Dublin, Ireland.
+                <div>
+                    <h3 id="Introduction">Alaa and Paisley will embark on a new journey across northern Spain. 
+                        There will be chaffing, there will be laughing, and there will be crying... how much of each is yet to be determined. 
+                        They will be departing on May 4th out of Seattle, and they will fly into Dublin, Ireland.
 
-                Their secretary Corduroy will record happenings, thoughts, and more!
+                        Their secretary Corduroy will record happenings, thoughts, and more!
+                    
+                        <!-- This is the start of the website, describing what we will be doing!-->
+                    </h3>
+                </div>
+        
+                <!--
+                <div>
+                    <img src="Seattle-Dublin.png" alt="A picture of our flight route." id=FlightRoute>
+                </div> -->
+            </div>
+
+
+
+            <div class="JournalWhole">
+                <!-- This entire section is the Journal to access notes from each day -->
+                    <div id="JournalIntro">
+                        <h2>Journal</h2>
+                            <p> We will record our thoughts and stories from each day throughout our trip.
+                                Click on the links below to see where we hiked each day 
+                                and stay tuned as we update how they actually went!
+                            </p>
+                    </div>
+
+                    <div id="JournalDays">
+                        <!-- This is where we will link a new page for each day of the adventure. -->
+                        <ul>
+                        <li><a href="/days/day1.html" target="_blank">The first day</a></li>
+                        <li><a href="/days/day2.html" target="_blank">The second day</a></li>
+                        <!-- <li><a href="/days/day3.html" target="_blank">The third day</a></li> -->
+                    <!-- <li><a href="day4.html" target="_blank">Day 4.</a></li>
+                        <li><a href="day5.html" target="_blank">Day 5.</a></li>
+                        <li><a href="day6.html" target="_blank">Day 6.</a></li>              
+                        <li><a href="day7.html" target="_blank">Day 7.</a></li>             
+                        <li><a href="day8.html" target="_blank">Day 8.</a></li>               
+                        <li><a href="day9.html" target="_blank">Day 9.</a></li>              
+                        <li><a href="day10.html" target="_blank">Day 10.</a></li>
+                        <li><a href="day11.html" target="_blank">Day 11.</a></li>
+                        <li><a href="day12.html" target="_blank">Day 12.</a></li>
+                        <li><a href="day13.html" target="_blank">Day 13.</a></li>
+                        <li><a href="day14.html" target="_blank">Day 14.</a></li>
+                        <li><a href="day15.html" target="_blank">Day 15.</a></li>
+                        <li><a href="day16.html" target="_blank">Day 16.</a></li>
+                        <li><a href="day17.html" target="_blank">Day 17.</a></li>
+                        <li><a href="day18.html" target="_blank">Day 18.</a></li>
+                        <li><a href="day19.html" target="_blank">Day 19.</a></li>
+                        <li><a href="day20.html" target="_blank">Day 20.</a></li>
+                        <li><a href="day21.html" target="_blank">Day 21.</a></li>
+                        <li><a href="day22.html" target="_blank">Day 22.</a></li>
+                        <li><a href="day23.html" target="_blank">Day 23.</a></li>
+                        <li><a href="day24.html" target="_blank">Day 24.</a></li>
+                        <li><a href="day25.html" target="_blank">Day 25.</a></li>
+                        <li><a href="day26.html" target="_blank">Day 26.</a></li>
+                        <li><a href="day27.html" target="_blank">Day 27.</a></li>
+                        <li><a href="day28.html" target="_blank">Day 28.</a></li>
+                        <li><a href="day29.html" target="_blank">Day 29.</a></li>
+                        <li><a href="day30.html" target="_blank">Day 30.</a></li> -->
+                        </ul>
+                    </div>
+            </div>
+
             
-                <!-- This is the start of the website, describing what we will be doing!-->
-            </h3>
-        </div>
-  
-        <!--
-        <div>
-            <img src="Seattle-Dublin.png" alt="A picture of our flight route." id=FlightRoute>
-        </div> -->
-    </div>
+            <div class="container-fluid">
+                <div class="bottom-row"> <!-- This is the bottom of the page, all about the website creator, CORDI! -->
+                <div class="row">
+                    <!-- col 1  -->
+                    <div id="maintenance" class="col-sm-4">
+                        <div class="Email"> 
+                            <p> If you would like to receive emails letting you know when an entry has been added to the page, 
+                                please sign up below!
+                                    <form action="submit-your-email">
+                                    <input type="text" required placeholder="Enter your email here">
+                                    <button type="submit">Submit</button>
+                                    </form>
+                            </p>
+                        </div>
+                    </div>
 
+                    <!-- col 2 -->
+                    <div id="maintenance" class="col-sm-4">
+                        <div class="CordiBio">   
+                            This page is managed by 
+                                <a href="https://www.instagram.com/thepupcorduroy/"
+                                target="_blank">Corduroy Woozle Hiefield.</a> 
+                                If you have any pressing questions, comments or concerns about this page, please email him at:
+                                doesthismakemyschnozlookbig@gmail.com
+                            
+                        </div>
+                    </div>
 
+                    <div id="maintenance" class="col-sm-4">
+                    <!-- col 3 -->
+                        <div class="cordy">
+                            <img src="IMG_1164.jpg" alt="A picture of Cordi." id="Corduroy">
+                        </div>
+                    </div>  
+                </div>
+                </div>
 
-    <div class="JournalWhole">
-        <!-- This entire section is the Journal to access notes from each day -->
-            <div id="JournalIntro">
-                <h2>Journal</h2>
-                    <p> We will record our thoughts and stories from each day throughout our trip.
-                        Click on the links below to see where we hiked each day 
-                        and stay tuned as we update how they actually went!
-                    </p>
-            </div>
-
-            <div id="JournalDays">
-                <!-- This is where we will link a new page for each day of the adventure. -->
-                <ul>
-                <li><a href="/days/day1.html" target="_blank">The first day</a></li>
-                <li><a href="/days/day2.html" target="_blank">The second day</a></li>
-                <li><a href="/days/day3.html" target="_blank">The third day</a></li>
-               <!-- <li><a href="day4.html" target="_blank">Day 4.</a></li>
-                <li><a href="day5.html" target="_blank">Day 5.</a></li>
-                <li><a href="day6.html" target="_blank">Day 6.</a></li>              
-                <li><a href="day7.html" target="_blank">Day 7.</a></li>             
-                <li><a href="day8.html" target="_blank">Day 8.</a></li>               
-                <li><a href="day9.html" target="_blank">Day 9.</a></li>              
-                <li><a href="day10.html" target="_blank">Day 10.</a></li>
-                <li><a href="day11.html" target="_blank">Day 11.</a></li>
-                <li><a href="day12.html" target="_blank">Day 12.</a></li>
-                <li><a href="day13.html" target="_blank">Day 13.</a></li>
-                <li><a href="day14.html" target="_blank">Day 14.</a></li>
-                <li><a href="day15.html" target="_blank">Day 15.</a></li>
-                <li><a href="day16.html" target="_blank">Day 16.</a></li>
-                <li><a href="day17.html" target="_blank">Day 17.</a></li>
-                <li><a href="day18.html" target="_blank">Day 18.</a></li>
-                <li><a href="day19.html" target="_blank">Day 19.</a></li>
-                <li><a href="day20.html" target="_blank">Day 20.</a></li>
-                <li><a href="day21.html" target="_blank">Day 21.</a></li>
-                <li><a href="day22.html" target="_blank">Day 22.</a></li>
-                <li><a href="day23.html" target="_blank">Day 23.</a></li>
-                <li><a href="day24.html" target="_blank">Day 24.</a></li>
-                <li><a href="day25.html" target="_blank">Day 25.</a></li>
-                <li><a href="day26.html" target="_blank">Day 26.</a></li>
-                <li><a href="day27.html" target="_blank">Day 27.</a></li>
-                <li><a href="day28.html" target="_blank">Day 28.</a></li>
-                <li><a href="day29.html" target="_blank">Day 29.</a></li>
-                <li><a href="day30.html" target="_blank">Day 30.</a></li> -->
-                </ul>
-            </div>
-    </div>
-
-
-
-    <div class="bottom-row"> <!-- This is the bottom of the page, all about the website creator, CORDI! -->
-    
-        <div class="Email"> <!-- This is where people can sign up to get email updates. -->
-            <p> If you would like to receive emails letting you know when an entry has been added to the page, 
-                please sign up below!
-                    <form action="submit-your-email">
-                    <input type="text" required placeholder="Enter your email here">
-                    <button type="submit">Submit</button>
-                    </form>
-            </p>
-        </div>
-
-        <div class="CordiBio">   
-            <footer>This page is managed by 
-                <a href="https://www.instagram.com/thepupcorduroy/"
-                target="_blank">Corduroy Woozle Hiefield.</a> 
-                If you have any pressing questions, comments or concerns about this page, please email him at:
-                doesthismakemyschnozlookbig@gmail.com
-            </footer>
-        </div>
-
-        <div class="cordy">
-            <img src="IMG_1164.jpg" alt="A picture of Cordi." id="Corduroy">
+            </div> 
+            <!-- Bottom row, container fluid -->
         </div>
     </div>
+
 </body>
 </html>
