@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <!-- Mobile first-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- CDN -->
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <!-- Import local js file -->
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div id="body-background" class="container-fluid">
+            <div id="navbar" class="container">
+                <h1>Travel Itinerary</h1>
+                <p>Content will go here.</p>
+                <div id="map-div">    
+                    <div id="Map" style="height:250px"></div>
+                    <script src="OpenLayers.js"></script>
+                    <script>
+                        var lat            = 43.163141;
+                        var lon            = -1.23811;
+                        var zoom           = 6;
+
+                        var fromProjection = new OpenLayers.Projection("EPSG:4326");   // Transform from WGS 1984
+                        var toProjection   = new OpenLayers.Projection("EPSG:900913"); // to Spherical Mercator Projection
+                        var position       = new OpenLayers.LonLat(lon, lat).transform( fromProjection, toProjection);
+
+                        map = new OpenLayers.Map("Map");
+                        var mapnik         = new OpenLayers.Layer.OSM();
+                        map.addLayer(mapnik);
+
+                        var markers = new OpenLayers.Layer.Markers( "Markers" );
+                        map.addLayer(markers);
+                        markers.addMarker(new OpenLayers.Marker(position));
+
+                        map.setCenter(position, zoom);
+                    </script>
+                </div>
+                <div id="checkpoints">
+                    
+                </div>      
+            </div>
+        </div>
+    </body>
+</html>
