@@ -20,16 +20,174 @@
                 <h1>Travel Itinerary</h1>
                 <p>Content will go here.</p>
                 <div id="map-div">    
+                    <!-- Map Functionality -->
                     <div id="Map" style="height:250px"></div>
                     <script src="OpenLayers.js"></script>
                     <script>
-                        var lat            = 43.163141;
-                        var lon            = -1.23811;
+                         // Get Date
+                        var today = new Date();
+                        var dd = String(today.getDate()).padStart(2, '0');
+                        var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+                        var yyyy = today.getFullYear();
+                        // mm = '06'
+                        // dd='08'
+                        // Declare lat, long variables
+                        var lat = 43.163141;
+                        var long = -1.23811;
+                        // Switch case to change marker position on date
+                        switch (mm+dd) {
+                            case '0510':
+                                lat = 53.3498;
+                                long = 6.203;
+                                break;
+                            case '0511':
+                                lat = 43.163141;
+                                long = -1.23811
+                                break;
+                            case '0512':
+                                lat = 43.0169504;
+                                long = -1.3035514;
+                                break;
+                            case '0513':
+                                lat = 42.9011096;
+                                long = -1.5429509;
+                                break;
+                            case '0514':
+                                lat = 42.812526;
+                                long = -1.6457745;
+                                break;
+                            case '0515':
+                                lat = 42.812526;
+                                long = -1.6457745;
+                                break;
+                            case '0516':
+                                lat = 42.6723037;
+                                long = -1.8135943;
+                                break;
+                            case '0517':
+                                lat = 42.6570846;
+                                long = -2.0386075;
+                                break;
+                            case '0518':
+                                lat = 42.504076;
+                                long = -2.2679632;
+                                break;
+                            case '0519':
+                                lat = 42.4627195;
+                                long = -2.4449852;
+                                break;
+                            case '0520':
+                                lat = 42.4167413;
+                                long = -2.7294624;
+                                break;
+                            case '0521':
+                                lat = 42.4369439;
+                                long = -2.9550619;
+                                break;
+                            case '0522':
+                                lat = 42.41956769999;
+                                long = -3.1917747;
+                                break;
+                            case '0523':
+                                lat = 42.3700787;
+                                long = -3.4795035;
+                                break;
+                            case '0524':
+                                lat = 42.3439925;
+                                long = -3.696906;
+                                break;
+                            case '0525':
+                                lat = 42.3439925;
+                                long = -3.696906;
+                                break;
+                            case '0526':
+                                lat = 42.3122534;
+                                long = -4.044638;
+                                break;
+                            case '0527':
+                                lat = 42.2594039;
+                                long = -4.3468794;
+                                break;
+                            case '0528':
+                                lat = 42.3307302;
+                                long = -4.6140481;
+                                break;
+                            case '0511':
+                                lat = 40.8378518;
+                                long = -5.541386;
+                                break;
+                            case '0529':
+                                lat = 42.4231911;
+                                long = -5.219490299999;
+                                break;
+                            case '0530':
+                                lat = 42.5669462;
+                                long = -5.495956;
+                                break;
+                            case '0531':
+                                lat = 42.4833413;
+                                long = -5.7293239;
+                                break;
+                            case '0601':
+                                lat = 42.4833413;
+                                long = -5.7293239;
+                                break;
+                            case '0602':
+                                lat = 42.4549303;
+                                long = -6.053251100000001;
+                                break;
+                            case '0603':
+                                lat = 42.491686;
+                                long = -6.342881299999999;
+                                break;
+                            case '0604':
+                                lat = 42.5499958;
+                                long = -6.598259000000001;
+                                break;
+                            case '0605':
+                                lat = 42.6083936;
+                                long = -6.8085542;
+                                break;
+                            case '0606':
+                                lat = 42.7078162;
+                                long = -7.043627;
+                                break;
+                            case '0607':
+                                lat = 42.7634462;
+                                long = -7.2113605;
+                                break;
+                            case '0608':
+                                lat = 42.7642842;
+                                long = -7.4536742;
+                                break;
+                            case '0609':
+                                lat = 42.82497559999999;
+                                long = -7.695852199999999;
+                                break;
+                            case '0610':
+                                lat = 42.9128344;
+                                long = -8.024700500000002;
+                                break;
+                            case '0611':
+                                lat = 42.9045519;
+                                long = -8.3625168;
+                                break;
+                            case '0612':
+                                lat = 42.8782132;
+                                long = -8.5448445;
+                                break;
+                            default:
+                                console.log('cannot find date.');
+                                var lat = 43.163141;
+                                var lon = -1.23811;
+                        }
+                        // today = mm + '/' + dd + '/' + yyyy;
+                        document.write(mm+dd);
+                        
                         var zoom           = 6;
-
                         var fromProjection = new OpenLayers.Projection("EPSG:4326");   // Transform from WGS 1984
                         var toProjection   = new OpenLayers.Projection("EPSG:900913"); // to Spherical Mercator Projection
-                        var position       = new OpenLayers.LonLat(lon, lat).transform( fromProjection, toProjection);
+                        var position       = new OpenLayers.LonLat(long, lat).transform( fromProjection, toProjection);
 
                         map = new OpenLayers.Map("Map");
                         var mapnik         = new OpenLayers.Layer.OSM();
