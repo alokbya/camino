@@ -26,33 +26,44 @@ Body {
     width:300px;
     height:400px;
     border: 5px solid black;  
-    order: 1;
+    /* order: 1;
     align-self: center;
-    margin-left: 125px;
-    transform: rotate(-10deg);
+    margin-left: 125px; */
+    /* transform: rotate(0deg); */
 }
-
+#Alaa-P:hover{
+    transform: rotate(-16deg);
+}
 #Introduction {
     outline: 5px solid black;
-    width: 70%;
-    height: 375px;
-    font-size: 28px;
+    /* width: 70%; */
+    /* height: 375px; */
+    font-size: 14px;
     font-family: 'Permanent Marker', cursive;
     text-align: center;
-    order: 2;
-    align-self: center;
-    margin-left: 150px;
-    transform: rotate(10deg);
+    /* order: 2; */
+    /* align-self: center; */
+    /* margin-left: 150px; */
+    transform: rotate(6deg);
+    color: black;
 }
-
+#Introduction:hover{
+    font-size: 28px;
+}
 .JournalWhole {
     background-color: rgba(128, 112, 84, 0.945);
     color: white;
-    font-family: 'Shadows Into Light', monospace;
+    /* font-family: 'Shadows Into Light', monospace; */
+    font-family: 'Permanent Marker', cursive;
 }
 
+.btn{
+    font-family: 'Permanent Marker', cursive;
+}
 #JournalIntro {
     font-size: 20px;
+    padding: 2px 2px 2px 2px;
+    margin: 2px 2px 2px 2px;
 }
 
 #JournalDays {
@@ -103,7 +114,9 @@ Body {
     /* text-align: center; */
 }
 
-
+#days{
+    text-align: center;
+}
 
 a:hover {
     color: gray;
@@ -118,4 +131,8 @@ h1,h2,h3,ul,footer,form{
     height:100%;
     /* border: 1px solid black; */
     display: block;
+}
+
+#mainmain{
+    /* min-width: 1200px; */
 }
