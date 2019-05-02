@@ -50,21 +50,21 @@ Body {
     #ap-desc{
         font-size: 2.8vw;
     }
+}*/
+@media screen and (max-width: 1330px){
+    #ap-desc{
+        font-size: 2.8vw;
+    }
 }
-/* @media screen and (max-width: 850px){
+@media screen and (min-width: 1331px){
     #ap-desc{
-        font-size: 26px;
+        font-size: 37px;
     }
-} */
-/* @media screen and (min-width: 851px){
-    #ap-desc{
-        font-size: 2.2vw;
-    }
-}  */
+} 
 #ap-desc{
     /* font-size: 3vw; */
     font-family: 'Permanent Marker', cursive;
-    font-size: 2.8vw;
+    /* font-size: 2.8vw; */
 }
 
 #Introduction {
