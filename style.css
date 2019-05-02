@@ -23,8 +23,10 @@ Body {
 }
 
 #Alaa-P {
-    width:300px;
+    width:300px; */
     height:400px;
+    /* width: 110%; */
+    min-width: 200px;
     border: 5px solid black;  
     /* order: 1;
     align-self: center;
@@ -32,23 +34,40 @@ Body {
     /* transform: rotate(0deg); */
 }
 #Alaa-P:hover{
-    transform: rotate(-16deg);
+    /* transform: rotate(-16deg); */
 }
 #Introduction {
     outline: 5px solid black;
-    /* width: 70%; */
-    /* height: 375px; */
+    width: 70%;
+    height: 375px;
+    min-width:200px;
+    max-width:300px;
+    min-height: 200px;
+    height: 100%;
     font-size: 14px;
     font-family: 'Permanent Marker', cursive;
     text-align: center;
     /* order: 2; */
     /* align-self: center; */
     /* margin-left: 150px; */
-    transform: rotate(6deg);
+    /* transform: rotate(6deg); */
     color: black;
 }
 #Introduction:hover{
-    font-size: 28px;
+    /* font-size: 28px; */
+}
+
+#intro{
+    display: inline;
+
+}
+#appic{
+    display: 
+    border: 5px solid green;
+}
+#picdescrip{
+    border: 5px solid blue;
+    display: inline-block;
 }
 .JournalWhole {
     background-color: rgba(128, 112, 84, 0.945);
@@ -82,7 +101,7 @@ Body {
 }
 
 .Email {
-    width: 100%%;
+    width: 100%;
     margin: auto;
     float: left;
     order: 1;
@@ -135,4 +154,17 @@ h1,h2,h3,ul,footer,form{
 
 #mainmain{
     /* min-width: 1200px; */
+}
+
+#follow-btn{
+    width: 100%;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    color: white;
+    font-family: "Lobster", cursive;
+    font-size:16px;
+}
+#follow-btn:visited{
+    color: white;
+    
 }
