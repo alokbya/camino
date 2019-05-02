@@ -1,6 +1,9 @@
-Body {
+
+html,body {
     background: url(https://i.imgur.com/MJAkxbh.png);
-    min-width: 440px;
+    min-width: 450px;
+    max-width: 100%;
+    overflow-x: disabled;
 }
 
 #Map-Santiago {
@@ -117,7 +120,7 @@ Body {
 }
 #JournalIntro {
     font-size: 20px;
-    padding: 2px 2px 2px 2px;
+    /* padding: 2px 2px 2px 2px;                This padding caused unneeded horizontal scrolling to mobile */                 
     margin: 2px 2px 2px 2px;
 }
 
