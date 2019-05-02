@@ -13,6 +13,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <!-- Mobile first-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 
@@ -34,31 +37,23 @@
             </div>
 
         <div class="row">
-            <div id="top-row"> 
-                <!-- This includesa picture of us and a brief Bio.-->
-                
-                <div class="col-xs-4">
-                    <div id="PictureAP">
-                        <img src="Alaa&P.jpg" alt="A picture of Alaa & P." id="Alaa-P">
-                    </div>
-                </div>
+            <!-- This includesa picture of us and a brief Bio.-->
+            
+            <div id="top-mat" class="col-xs-6">
+                <img  id="Alaa-P" class="img-responsive" src="Alaa&P.jpg" alt="A picture of Alaa & P.">
+            </div>
 
-                <div class="col-xs-8">
-                    <div>
-                        <h3 id="Introduction">Alaa and Paisley will embark on a new journey across northern Spain. 
-                            There will be chaffing, there will be laughing, and there will be crying... how much of each is yet to be determined. 
-                            They will be departing on May 4th out of Seattle, and they will fly into Dublin, Ireland.
-
-                            Their secretary Corduroy will record happenings, thoughts, and more!
-                        
-                            <!-- This is the start of the website, describing what we will be doing!-->
-                        </h3>
-                    </div>
-                </div>
-                <!--
-                <div>
-                    <img src="Seattle-Dublin.png" alt="A picture of our flight route." id=FlightRoute>
-                </div> -->
+            <div id="top-mat" class="col-xs-6">
+                <span id="ap-desc">Alaa and Paisley will embark on a new journey across northern Spain. 
+                        There will be chaffing, there will be laughing, and there will be crying... how much of each is yet to be determined. 
+                        They will be departing on May 4th out of Seattle, and they will fly into Dublin, Ireland.
+                        Their secretary Corduroy will record happenings, thoughts, and more!
+                </span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <button id="follow-btn" class="btn-success"><a href="./agenda/overview.html" target="_blank">Follow Along</a></button>
             </div>
         </div>
     </div>
@@ -81,9 +76,7 @@
                             <button class="btn-default">Day 1</button>
                             <button class="btn-default">Day 2</button>
                             <br>
-                            <div class="col-xs-12">
-                                <button class="btn-success"><a href="./agenda/overview.html" target="_blank">Follow Along</a></button>
-                            </div>
+                            
                         </div>
                         
                         
