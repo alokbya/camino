@@ -1,5 +1,6 @@
 Body {
-    background: url(https://i.imgur.com/MJAkxbh.png)
+    background: url(https://i.imgur.com/MJAkxbh.png);
+    min-width: 440px;
 }
 
 #Map-Santiago {
@@ -24,12 +25,13 @@ Body {
 }
 
 #Alaa-P {
-    width:300px; */
+    width:300px;
     height:400px;
     /* width: 110%; */
     min-width: 200px;
-    margin:atuo;
+    /* margin:auto; */
     border: 5px solid black;  
+    /* text-align:center; */
     /* order: 1;
     align-self: center;
     margin-left: 125px; */
@@ -38,6 +40,31 @@ Body {
 #Alaa-P:hover{
     /* transform: rotate(-16deg); */
 }
+@media screen and (max-width: 849px){
+    #ap-desc{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 850px){
+    #ap-desc{
+        font-size: 3vw;
+    }
+}
+/* @media screen and (max-width: 850px){
+    #ap-desc{
+        font-size: 26px;
+    }
+} */
+@media screen and (min-width: 851px){
+    #ap-desc{
+        font-size: 26px;
+    }
+}
+#ap-desc{
+    /* font-size: 3vw; */
+    font-family: 'Permanent Marker', cursive;
+}
+
 #Introduction {
     outline: 5px solid black;
     width: 70%;
@@ -60,15 +87,16 @@ Body {
 }
 
 #intro{
-    display: inline;
-
+    /* display: inline; */
+    font-size: 14px;
+    font-family: 'Permanent Marker', cursive;
 }
 #ap{
     /* This is the picture of us at the top of the page */
 
 }
 #appic{
-    display: 
+    
     border: 5px solid green;
 }
 #picdescrip{
