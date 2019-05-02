@@ -6,7 +6,7 @@
     <!-- Adding browser tab icon -->
     <link rel="shortcut icon" href="./images/cordy_icon.ico">
 
-    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Amatic+SC|Fjalla+One|Gloria+Hallelujah|Great+Vibes|Inconsolata|Indie+Flower|Kumar+One+Outline|Lobster|Pacifico|Permanent+Marker|Shadows+Into+Light|Staatliches|Teko" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Amatic+SC|Fjalla+One|Roboto+Mono|Gloria+Hallelujah|Great+Vibes|Inconsolata|Indie+Flower|Kumar+One+Outline|Lobster|Pacifico|Permanent+Marker|Shadows+Into+Light|Artifika|Hind|Teko" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <!-- CDN -->
@@ -19,13 +19,14 @@
 
     <!-- Mobile first-->
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-    <meta name="viewport" content ="width=device-width,initial-scale=1,user-scalable=yes" />
+    <meta name="viewport" content ="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=yes" />
+    <!-- <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" /> -->
 </head>
 
 
 
 <body>
-    <div class="container">
+    <div id="biggie" class="container">
         <div id="mainmain" class="container-fluid">
 
             <!-- row 1 -->
@@ -37,7 +38,7 @@
 
                     <div id="Title">
                         <h1>El Camino De Santiago</h1>    
-                        <h2>The Adventures of Alaaddin and Paisley!</h2>
+                        <i><h2>The Adventures of Alaaddin and Paisley</h2></i>
                         <!-- comment -->
                     </div>
                 </div>
@@ -64,7 +65,7 @@
             <!-- row 3 -->
             <div id="row-3" class="row">
                 <div class="col-xs-12">
-                    <a href="./agenda/overview.html" target="_blank"><button id="follow-btn" class="btn-success">Follow Along</button></a>
+                    <a href="./agenda/overview.html" target="_blank"><button id="follow-btn" class="invisible btn-success">Follow Along</button></a>
                 </div>
             </div>
     
@@ -74,7 +75,7 @@
                     <div class="JournalWhole">
                         <div id="JournalIntro">
                             <h2>Journal</h2>
-                            <p> Our goal is to record our thoughts and stories from each day throughout our trip.
+                            <p id="journal-p"> Our goal is to record our thoughts and stories from each day throughout our trip.
                                 Click on the links below to see where we hiked each day 
                                 and stay tuned as we update how they actually went!
                             </p>
@@ -82,8 +83,9 @@
                         <div id="JournalDays">
                             <!-- This is where we will link a new page for each day of the adventure. -->
                             <div id="days">
-                                <a href="./days/day1.html" target=""><button class="btn-default">Day 1</button></a>
-                                <button class="btn-default">Day 2</button>
+                                <a href="./days/day1.html" target=""><button class="btn-default invisible">Day 1</button></a>
+                                <button class="btn-default invisible">Day 2</button>
+                                <a href="./agenda/overview.html" target="_blank"><button id="follow-btn" class="btn-success">Our Agenda</button></a>
                                 <br>
                                 
                             </div>
@@ -92,15 +94,238 @@
                 </div>
             </div>
             <!-- end row 4 -->
-            
-            <!-- row 5 -->
-            <div class="bottom-row"> <!-- This is the bottom of the page, all about the website creator, CORDI! -->
-                <div class="row">
 
+
+            <!-- row 5 -->
+            <div class="row">
+                <div id="body-background" class="container-fluid">
+                    
+                        <h1 id="follow-along-text">Follow Along</h1>
+                        <p>Find us on the map!</p>
+                        <div id="map-div">    
+                            <!-- Map Functionality -->
+                            <div id="Map" style="height:250px"></div>
+                            <script src="./agenda/maps/OpenLayers.js"></script>
+                            <script>
+                                    // Get Date
+                                var today = new Date();
+                                var dd = String(today.getDate()).padStart(2, '0');
+                                var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+                                var yyyy = today.getFullYear();
+                                
+                                // Testing 
+                                // mm = '06'
+                                // dd='08'
+                                
+                                var zoom    = 3;
+                                var lat     = 43.163141;
+                                var long    = -1.23811;
+                                
+                                // Declare lat, long variables
+                                if (mm === "05"){
+                                    if (dd < "04"){
+                                        lat = 45.523064;
+                                        long = -122.676483;
+                                        // document.write("Having some issues correctly projecting onto Portland.<br>");
+                                    }
+                                    else if (dd >= "04" && dd <= "10"){
+                                        lat = 65.350140;
+                                        long = -6.266155;
+                                    }
+                                    else if (dd > "10"){
+                                        zoom = 8;
+                                    }
+                                }
+                                else if (mm == "06"){
+                                    zoom = 8;
+                                }
+                                // lat = 42.6570846;
+                                // long = -2.0386075;
+                                // document.write(mm+dd);
+                                // Switch case to change marker position on date
+                                switch (mm+dd) {
+                                    case '0510':
+                                        lat = 53.3498;
+                                        long = 6.203;
+                                        break;
+                                    case '0511':
+                                        lat = 43.163141;
+                                        long = -1.23811
+                                        break;
+                                    case '0512':
+                                        lat = 43.0169504;
+                                        long = -1.3035514;
+                                        break;
+                                    case '0513':
+                                        lat = 42.9011096;
+                                        long = -1.5429509;
+                                        break;
+                                    case '0514':
+                                        lat = 42.812526;
+                                        long = -1.6457745;
+                                        break;
+                                    case '0515':
+                                        lat = 42.812526;
+                                        long = -1.6457745;
+                                        break;
+                                    case '0516':
+                                        lat = 42.6723037;
+                                        long = -1.8135943;
+                                        break;
+                                    case '0517':
+                                        lat = 42.6570846;
+                                        long = -2.0386075;
+                                        break;
+                                    case '0518':
+                                        lat = 42.504076;
+                                        long = -2.2679632;
+                                        break;
+                                    case '0519':
+                                        lat = 42.4627195;
+                                        long = -2.4449852;
+                                        break;
+                                    case '0520':
+                                        lat = 42.4167413;
+                                        long = -2.7294624;
+                                        break;
+                                    case '0521':
+                                        lat = 42.4369439;
+                                        long = -2.9550619;
+                                        break;
+                                    case '0522':
+                                        lat = 42.41956769999;
+                                        long = -3.1917747;
+                                        break;
+                                    case '0523':
+                                        lat = 42.3700787;
+                                        long = -3.4795035;
+                                        break;
+                                    case '0524':
+                                        lat = 42.3439925;
+                                        long = -3.696906;
+                                        break;
+                                    case '0525':
+                                        lat = 42.3439925;
+                                        long = -3.696906;
+                                        break;
+                                    case '0526':
+                                        lat = 42.3122534;
+                                        long = -4.044638;
+                                        break;
+                                    case '0527':
+                                        lat = 42.2594039;
+                                        long = -4.3468794;
+                                        break;
+                                    case '0528':
+                                        lat = 42.3307302;
+                                        long = -4.6140481;
+                                        break;
+                                    case '0511':
+                                        lat = 40.8378518;
+                                        long = -5.541386;
+                                        break;
+                                    case '0529':
+                                        lat = 42.4231911;
+                                        long = -5.219490299999;
+                                        break;
+                                    case '0530':
+                                        lat = 42.5669462;
+                                        long = -5.495956;
+                                        break;
+                                    case '0531':
+                                        lat = 42.4833413;
+                                        long = -5.7293239;
+                                        break;
+                                    case '0601':
+                                        lat = 42.4833413;
+                                        long = -5.7293239;
+                                        break;
+                                    case '0602':
+                                        lat = 42.4549303;
+                                        long = -6.053251100000001;
+                                        break;
+                                    case '0603':
+                                        lat = 42.491686;
+                                        long = -6.342881299999999;
+                                        break;
+                                    case '0604':
+                                        lat = 42.5499958;
+                                        long = -6.598259000000001;
+                                        break;
+                                    case '0605':
+                                        lat = 42.6083936;
+                                        long = -6.8085542;
+                                        break;
+                                    case '0606':
+                                        lat = 42.7078162;
+                                        long = -7.043627;
+                                        break;
+                                    case '0607':
+                                        lat = 42.7634462;
+                                        long = -7.2113605;
+                                        break;
+                                    case '0608':
+                                        lat = 42.7642842;
+                                        long = -7.4536742;
+                                        break;
+                                    case '0609':
+                                        lat = 42.82497559999999;
+                                        long = -7.695852199999999;
+                                        break;
+                                    case '0610':
+                                        lat = 42.9128344;
+                                        long = -8.024700500000002;
+                                        break;
+                                    case '0611':
+                                        lat = 42.9045519;
+                                        long = -8.3625168;
+                                        break;
+                                    case '0612':
+                                        lat = 42.8782132;
+                                        long = -8.5448445;
+                                        break;
+                                    default:
+                                        console.log('cannot find date.');
+                                        var lat = 43.163141;
+                                        var lon = -1.23811;
+                                }
+                                // today = mm + '/' + dd + '/' + yyyy;
+                                document.write("As of: " + mm + "/" + dd + "/" + yyyy);
+                                
+                                // var zoom           = 6;
+                                var fromProjection = new OpenLayers.Projection("EPSG:4326");   // Transform from WGS 1984
+                                var toProjection   = new OpenLayers.Projection("EPSG:900913"); // to Spherical Mercator Projection
+                                var position       = new OpenLayers.LonLat(long, lat).transform( fromProjection, toProjection);
+        
+                                map = new OpenLayers.Map("Map");
+                                var mapnik         = new OpenLayers.Layer.OSM();
+                                map.addLayer(mapnik);
+        
+                                var markers = new OpenLayers.Layer.Markers( "Markers" );
+                                map.addLayer(markers);
+                                markers.addMarker(new OpenLayers.Marker(position));
+        
+                                map.setCenter(position, zoom);
+                            </script>
+                        </div>
+                        <div id="checkpoints">
+        
+                        </div>      
+                        
+                </div>
+
+            </div>
+
+            <!-- end row 5 -->
+
+            <!-- row 6 -->
+            <!-- <div class="bottom-row"> This is the bottom of the page, all about the website creator, CORDI! -->
+                <div class="row">
+        
                     <!-- col 1  -->
-                    <div id="maintenance" class="col-sm-4">
+                    <!-- <div id="maintenance" class="col-sm-4">
                         <div class="Email"> 
-                            <p> If you would like to receive emails letting you know when an entry has been added to the page, 
+                            <p id="email-text"> If you would like to receive emails letting you know when an entry has been added to the page, 
                                 please sign up below!
                                     <form action="submit-your-email">
                                     <input type="text" required placeholder="Enter your email here">
@@ -108,32 +333,42 @@
                                     </form>
                             </p>
                         </div>
-                    </div>
-
+                    </div> -->
+        
                     <!-- col 2 -->
-                    <div id="maintenance" class="col-sm-4">
+                    <div id="maintenance" class="col-sm-10">
                         <div class="CordiBio">   
+                                <span id="footer-text">
                             This page is managed by 
                             <a href="https://www.instagram.com/thepupcorduroy/"
                             target="_blank">Corduroy Woozle Hiefield.</a> 
-                            If you have any pressing questions, comments or concerns about this page, please email him at:
-                            doesthismakemyschnozlookbig@gmail.com
+                             If you have any pressing questions, comments or concerns about this page, please email him at:
+                            doesthismakemyschnozlookbig@gmail.com </span>
                         </div>
                     </div>
-
+        
                     <!-- col 3 -->
-                    <div id="maintenance" class="col-sm-4">
+                    <div id="maintenance" class="col-sm-2">
                         <div class="cordy">
                             <img src="images/IMG_1164.jpg" alt="A picture of Cordi." id="Corduroy">
                         </div>
                     </div> 
-
+        
                 </div>
-            </div>
-            <!-- end row 5 -->
+            <!-- </div> -->
+            <!-- end row 6 -->
 
-        </div>
+        </div> <!-- End of container fluid -->
+
+
+        
+        
     </div>
+
+
+    
+
+
 
 </body>
 </html>

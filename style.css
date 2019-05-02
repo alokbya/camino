@@ -128,25 +128,52 @@ html,body {
     font-size: 20px;
 }
 
+#follow-along-text{
+    font-family: "Permanent Marker", Serif;
+}
 .bottom-row {
-    width: 100%;
+    /* width: 100%;
     height: 100%;
     /* display: flex; */
-    align-items: center;
-    text-align: center;
+    /* align-items: center;
+    text-align: center; */
     /* margin: auto; */
-    font-family: 'Permanent Marker', cursive;
+    /* font-family: 'Permanent Marker', cursive;
     color: teal;
+    margin-top: 20px; */ 
+    max-width: 100%;
+    min-width: 375px;
+    position: absolute;
+    /* right: max; */
+    /* bottom: true; */
+    width: 100%;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    /* border: 5px solid red; */
+    /* text-align: center; */
+    text-align: center;
+    float: right;
+
+
+}
+
+#biggie{
+    /* border: 5px solid black; */
 }
 
 .Email {
     width: 100%;
-    margin: auto;
+    /* margin: auto;
     float: left;
-    order: 1;
-    font-size: 20px;
+    order: 1; */
+    font-size: 15px;
+    font-family: 'Hind', serif;
+    
 }
-
+#email-text{
+    font-weight: bold;
+}
 .cordy {
     width: 100%;
     /* height: 100%; */
@@ -161,12 +188,25 @@ html,body {
     /* margin: auto; */
     /* float: right; */
     /* order: 3; */
-    font-size: 20px;
+    font-size: 17px;
+    /* font-size: 15px; */
+    /* font-family: 'Hind', serif; */
+    text-align: left;
+    padding-left: 15px;
+}
+#footer-text{
+    padding-top:35px;
+    font-size: 1.5vw;
+    font-family: "Permanent Marker", Serif;
+}
+.row{
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 #Corduroy {
-    width:162.5px;
-    height:200px;
+    width: 81.25px;
+    height: 100px;
     border: 5px solid grey;
     border-radius: 50%;
     /* text-align: center; */
@@ -190,7 +230,9 @@ h1,h2,h3,ul,footer,form{
     /* width: 100%; */
     height:100%;
     /* border: 1px solid black; */
-    display: block;
+    /* display: block; */
+    float: center;
+    text-align: center;
 }
 
 #mainmain{
@@ -203,9 +245,24 @@ h1,h2,h3,ul,footer,form{
     margin-bottom: 2px;
     color: white;
     font-family: "Lobster", cursive;
-    font-size:16px;
+    font-size:24px;
+    margin-top: 15px;
 }
 #follow-btn:visited{
     color: white;
     
+}
+
+#map-div{
+    max-width: 100%;
+    /* border: 5px solid red; */
+}
+#map-container{
+    border: 5px solid blue;
+}
+
+#journal-p{
+    font-family: 'Permanent Marker', monospace;
+    padding-left: 10px;
+    padding-right: 10px;
 }
