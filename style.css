@@ -4,7 +4,8 @@ Body {
 
 #Map-Santiago {
     width: 100%;
-    height: 250px;
+    /* height: 250px; */
+    height: auto;
 }
 
 #Title {
@@ -27,6 +28,7 @@ Body {
     height:400px;
     /* width: 110%; */
     min-width: 200px;
+    margin:atuo;
     border: 5px solid black;  
     /* order: 1;
     align-self: center;
@@ -59,6 +61,10 @@ Body {
 
 #intro{
     display: inline;
+
+}
+#ap{
+    /* This is the picture of us at the top of the page */
 
 }
 #appic{
@@ -135,6 +141,8 @@ Body {
 
 #days{
     text-align: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 
 a:hover {
