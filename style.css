@@ -26,7 +26,9 @@ html,body {
     align-items: center;
     margin-top: 50px;
 }
-
+.JournalWhole{
+    box-shadow: 0 20px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
 #Alaa-P {
     /* width:300px;
     height:400px; */
