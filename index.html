@@ -132,8 +132,8 @@
                                         // document.write("Having some issues correctly projecting onto Portland.<br>");
                                     }
                                     else if (dd >= "04" && dd <= "10"){
-                                        lat = 42.3439925;
-                                        long = -3.696906;
+                                        lat = 53.42;
+                                        long = -6.27;
                                     }
                                     else if (dd > "10"){
                                         zoom = 8;
@@ -289,12 +289,12 @@
                                         break;
                                     default:
                                         console.log('cannot find date.');
-                                        var lat = 43.163141;
-                                        var long = -1.23811;
+                                        lat = 53.42;
+                                        long = -6.27;
                                 }
                                 // today = mm + '/' + dd + '/' + yyyy;
                                 document.write("As of: " + mm + "/" + dd + "/" + yyyy);
-                                
+                                document.write("Lat: " + lat + "\nLong: " + long)
                                 // var zoom           = 6;
                                 var fromProjection = new OpenLayers.Projection("EPSG:4326");   // Transform from WGS 1984
                                 var toProjection   = new OpenLayers.Projection("EPSG:900913"); // to Spherical Mercator Projection
