@@ -40,8 +40,8 @@
 ***********
 ***********-->
             <div id="navbar" class="container">
-                <h1>Follow Along</h1>
-                <p>Find us on the map!</p>
+                <h1 id="follow-heading">Follow Along</h1>
+                <p id="follow-heading">Find us on the map!</p>
 
 
 <!-- MAP
@@ -238,7 +238,7 @@
                     }
                     // today = mm + '/' + dd + '/' + yyyy;
                     document.write("As of: " + mm + "/" + dd + "/" + yyyy);
-                    document.writeln("Lat: " + lat + "\nLong: " + long)
+                    // document.writeln("Lat: " + lat + "\nLong: " + long)
                     // var zoom           = 6;
                     var fromProjection = new OpenLayers.Projection("EPSG:4326");   // Transform from WGS 1984
                     var toProjection   = new OpenLayers.Projection("EPSG:900913"); // to Spherical Mercator Projection

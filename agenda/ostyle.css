@@ -1,7 +1,9 @@
 #Map {
     border: 2px solid grey;
 }
-
+#follow-heading{
+    font-family: "Permanent Marker", serif;
+}
 .days{
     margin-bottom: 10px;
     /* border: 5px solid black; */
