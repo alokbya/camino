@@ -3,6 +3,7 @@
 }
 #follow-heading{
     font-family: "Permanent Marker", serif;
+    text-align:center;
 }
 .days{
     margin-bottom: 10px;
@@ -20,6 +21,13 @@
 #pictures{
     font-family: "Hind", serif;
     font-size: 22px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+#pic-desc{
+    font-family: "Permanent Marker", serif;
+    text-align: center;
+    font-size: 20px;
 }
 
 #notes{
