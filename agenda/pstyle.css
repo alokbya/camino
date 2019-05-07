@@ -7,7 +7,28 @@
     font-family: "Permanent Marker", serif;
 }
 
-#photo{
+.photo{
     margin-top: 15px;
     margin-bottom: 15px;
+}
+
+#d2p4{
+    transform: rotate(90deg);
+}
+
+#d2p5{
+    transform: rotate(90deg);
+}
+
+.day-2{
+    border-top: 5px solid grey;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.heading{
+    font-family: "Permanent Marker", serif;
+    font-size: 36px;
+    color: teal;
+    text-align: center;
 }
