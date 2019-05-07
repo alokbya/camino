@@ -1,0 +1,13 @@
+.row{
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.navigation{
+    text-align:center;
+    font-family: "Permanent Marker", serif;
+}
+
+#photo{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
