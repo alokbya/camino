@@ -10,6 +10,11 @@
             gtag('js', new Date());
         
             gtag('config', 'UA-139736720-1');
+
+
+            // clear cookies
+            document.cookie.split(";").forEach(function(c) { document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/"); });
+
             </script>
         
             <title>Trip Photos</title>
@@ -45,6 +50,50 @@
                 Check us out!
             </h4>
         </div>
+
+        <div id="day"> Galway, Day 3 </div>
+        <div class="gallery-day3">
+            <!--  -->
+            <figure class="gallery-day3__item gallery-day3__item--1">
+                <img src="../images/day-photos/day-3/tower.jpg" class="gallery_img" alt="face-beer">
+            </figure>
+            <!--  -->
+            <figure class="gallery-day3__item gallery-day3__item--2">
+                <img src="../images/day-photos/day-3/travel-selfie.jpg" class="gallery_img" alt="ha'penny bridge">
+            </figure>  
+            <!--  -->
+            <figure class="gallery-day3__item gallery-day3__item--3">
+                    <img src="../images/day-photos/day-3/paisley-leaning.jpg" class="gallery_img" alt="face-beer">
+            </figure>
+            <!--  -->
+            <figure class="gallery-day3__item gallery-day3__item--4">
+                    <img src="../images/day-photos/day-3/train-ride.gif" class="gallery_img" alt="ha'penny bridge">
+            </figure>
+            <!--  -->
+            <figure class="gallery-day3__item gallery-day3__item--5">
+                    <img src="../images/day-photos/day-3/pano.jpg" class="gallery_img" alt="face-beer">
+            </figure>
+            <!--  -->
+            <figure class="gallery-day3__item gallery-day3__item--6">
+                    <img src="../images/day-photos/day-3/train-sleep.jpg" class="gallery_img" alt="ha'penny bridge">
+            </figure>
+            <!--  -->
+            <figure class="gallery-day3__item gallery-day3__item--7">
+                        <img src="../images/day-photos/day-3/beach-pic.jpg" class="gallery_img" alt="face-beer">
+            </figure>
+            <!--  -->
+            <figure class="gallery-day3__item gallery-day3__item--8">
+                        <img src="../images/day-photos/day-3/alaa-walking.jpg" class="gallery_img" alt="ha'penny bridge">
+            </figure>
+            <figure class="gallery-day3__item gallery-day3__item--9">
+                    <img src="../images/day-photos/day-3/galway-flags.gif" class="gallery_img" alt="face-beer">
+            </figure>
+            <!--  -->
+            <!-- <figure class="gallery-day3__item gallery-day3__item--2">
+                    <img src="../images/day-photos/day-3/paisley-leaning.jpg" class="gallery_img" alt="ha'penny bridge">
+            </figure> -->
+        </div>
+
 
         <div id="day"> Dublin, Day 2 </div>
         <div class="gallery-day2">
@@ -90,6 +139,18 @@
             </figure>  
             <figure class="gallery-day2__item gallery-day2__item--11">
                     <img src="../images/day-photos/day-2/maybe-the-capitol.jpg" class="gallery_img" alt="trinity-pointy-thing">
+            </figure>  
+        </div>
+
+        <div id="day"> Traveling to Dublin, Day 1 </div>
+        <div class="gallery-day1">
+            <!--  -->
+            <figure class="gallery-day1__item gallery-day1__item--1">
+                <img src="../images/day-photos/day-1/departure.gif" class="gallery_img" alt="face-beer">
+            </figure>
+            <!--  -->
+            <figure class="gallery-day1__item gallery-day1__item--2">
+                <img src="../images/day-photos/day-1/IMG_0198.jpg" class="gallery_img" alt="ha'penny bridge">
             </figure>  
         </div>
 
