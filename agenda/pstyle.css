@@ -51,6 +51,62 @@
 }
 
 
+/* Day Four */
+.gallery-day4{
+    display: grid;
+    grid-template-columns: repeat(30, 1fr);
+    grid-template-rows: repeat(30, 6vw);
+    grid-gap: 5px;
+    /* display: inline-block; */
+}
+
+.gallery-day4__item--1{
+    grid-column-start: 1;
+    grid-column-end: 17;
+    grid-row-start: 1;
+    grid-row-end: 9;
+}
+
+.gallery-day4__item--2{
+    grid-column-start: 17;
+    grid-column-end: 31;
+    grid-row-start: 1;
+    grid-row-end: 9;
+}
+.gallery-day4__item--3{
+    grid-column-start: 1;
+    grid-column-end: 14;
+    grid-row-start: 9;
+    grid-row-end: 24;
+}
+.gallery-day4__item--4{
+    grid-column-start: 14;
+    grid-column-end: 24;
+    grid-row-start: 9;
+    grid-row-end: 19;
+}
+.gallery-day4__item--5{
+    grid-column-start: 24;
+    grid-column-end: 31;
+    grid-row-start: 9;
+    grid-row-end: 19;
+}
+.gallery-day4__item--6{
+    grid-column-start: 1;
+    grid-column-end: 14;
+    grid-row-start: 24;
+    grid-row-end: 31;
+}
+.gallery-day4__item--7{
+    grid-column-start: 14;
+    grid-column-end: 31;
+    grid-row-start: 19;
+    grid-row-end: 31;
+}
+
+
+
+
 /* Day Three */
 .gallery-day3{
     display: grid;
