@@ -1,0 +1,651 @@
+[33mcommit 92c84bf4ccc9d08a31be22d4aefa57ef358d1a12[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Thu May 16 17:19:53 2019 +0100
+
+    cleaned up files and added through day 6
+
+[33mcommit 77644d104d91941d041e63e35a61ad0534a536fe[m
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Wed May 15 19:11:19 2019 +0100
+
+    removed sheep video
+
+[33mcommit 109eda3c6ad79d49f0c947457ce2465707df3587[m
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Wed May 15 15:37:43 2019 +0100
+
+    added day 10
+
+[33mcommit ca1d7db94e1c4fd0f55cfbb404cb1b5b936005cc[m
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Wed May 15 15:09:33 2019 +0100
+
+    added photos
+
+[33mcommit a8928aa396425402bbca7a5135c2f317f7d8d7f7[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 0bf54a7 4590740
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Tue May 14 14:36:01 2019 +0100
+
+    Merge pull request #24 from alokbya/album
+    
+    Album
+
+[33mcommit 4590740f7dcd24631c4b7750ad9f4acafd2f99c4[m[33m ([m[1;31morigin/album[m[33m, [m[1;32malbum[m[33m)[m
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Tue May 14 14:15:12 2019 +0100
+
+    updated agenda throug day 9
+
+[33mcommit 0d05dcea487b1817ef722794df3e097bd9237e06[m
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Tue May 14 13:54:09 2019 +0100
+
+    Updated days 5 and 6
+
+[33mcommit 0bf54a74a1bcc7fae757f76fc7a91c5863568676[m
+Merge: 4bfada7 4d92519
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Fri May 10 05:07:51 2019 +0100
+
+    Merge pull request #23 from alokbya/album
+    
+    Album
+
+[33mcommit 4d92519ce6ab64f696d14f78653e805e1e2478db[m
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Fri May 10 05:05:44 2019 +0100
+
+    added malahide photos
+
+[33mcommit 0b8a53c430d400b23f5bd5581501ed2ae10bffb8[m
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Fri May 10 04:48:01 2019 +0100
+
+    added photos and changed title
+
+[33mcommit 654a6d7691766d7723657734eb11180bb847ec96[m
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Fri May 10 04:47:22 2019 +0100
+
+    added day 4 photos
+
+[33mcommit 4bfada76f0d7be75383c26f64d90bb2adccda2c4[m
+Merge: 55877b0 cd44340
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Wed May 8 14:39:35 2019 +0100
+
+    Merge pull request #22 from alokbya/album
+    
+    added day 3 photos
+
+[33mcommit cd443405f7811b350fd5ecfa8b1f4119f5757e54[m[33m ([m[1;31morigin/origin/master[m[33m)[m
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Wed May 8 14:37:34 2019 +0100
+
+    added day 3 photos
+
+[33mcommit 55877b0e01de4deceb4cc154a6160334fe7867c7[m
+Merge: 0e02758 e74b4bf
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Wed May 8 13:19:55 2019 +0100
+
+    Merge pull request #21 from alokbya/album
+    
+    added photos
+
+[33mcommit e74b4bf8afcafffaa20f039691b9fe922069629f[m
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Wed May 8 13:15:57 2019 +0100
+
+    added photos
+
+[33mcommit 0e027580b57eb6ef41c116ac9ffc2b7d73d95874[m
+Merge: 05af3ac 3c2b493
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Wed May 8 11:59:39 2019 +0100
+
+    Merge pull request #20 from alokbya/album
+    
+    changed picture orientation and converted photo album to css grid
+
+[33mcommit 3c2b493b0a5dd56062ba4d4d5bd4267c9934c249[m
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Wed May 8 11:57:53 2019 +0100
+
+    changed picture orientation and converted photo album to css grid
+
+[33mcommit 05af3ac251350fab8b344152bd61463775b69476[m
+Merge: 8bfeaf9 746f131
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Tue May 7 18:33:16 2019 +0100
+
+    Merge pull request #19 from alokbya/demo
+    
+    Demo
+
+[33mcommit 746f1317ca45f0b442cfbad8bc63782685a4ff72[m[33m ([m[1;31morigin/demo[m[33m, [m[1;32mdemo[m[33m)[m
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Tue May 7 18:27:56 2019 +0100
+
+    modified buttons on index
+
+[33mcommit c1314c63acee1540fdd559a8d80c4ab5da5c110b[m
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Tue May 7 18:23:24 2019 +0100
+
+    fixed icon on index.html
+
+[33mcommit a214238ee62e578763dfe7bb5efcc0584fc379fb[m
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Tue May 7 18:22:44 2019 +0100
+
+    added journal
+
+[33mcommit 8bfeaf9dfd794dcbd46a5ba83f4010eddb3cb0d4[m
+Merge: d530773 3b9fb65
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Tue May 7 17:18:45 2019 +0100
+
+    Merge pull request #18 from alokbya/demo
+    
+    Demo
+
+[33mcommit 3b9fb65ddfc971743166498e6eb1dbfb70d3be83[m
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Tue May 7 11:37:18 2019 +0100
+
+    formatted picture pre page
+
+[33mcommit c2b81a0310eec5e7ed0041ed10f4298010d767dc[m
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Tue May 7 11:02:50 2019 +0100
+
+    created photo page
+
+[33mcommit d530773a46f569eca045ea871a03089622e9e047[m
+Merge: 8b63090 e26bba4
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Tue May 7 10:00:19 2019 +0100
+
+    Merge pull request #17 from alokbya/demo
+    
+    added photos
+
+[33mcommit e26bba48411267ffe6964655c846f7707f2ba3bb[m
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Tue May 7 09:59:24 2019 +0100
+
+    added photos
+
+[33mcommit 8b630908746888f92947a639a64de6e9ae748858[m
+Merge: 9ed77a6 b39044f
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Mon May 6 22:49:02 2019 -0700
+
+    Merge pull request #16 from alokbya/demo
+    
+    Demo
+
+[33mcommit b39044f8347d3400472a387fff3087eb2b92e725[m
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Tue May 7 06:46:43 2019 +0100
+
+    added analytics to overview
+
+[33mcommit cff3f35e3992cce1493088af63295ed92a49565d[m
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Tue May 7 06:46:11 2019 +0100
+
+    added analytics to index
+
+[33mcommit 9ed77a6ba737b31c57a486870e385c8945fdfda7[m
+Merge: 12e6ebd 1aa0c70
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Mon May 6 22:33:20 2019 -0700
+
+    Merge pull request #15 from alokbya/demo
+    
+    cleaned up code
+
+[33mcommit 1aa0c70b0a1129de13d7135b82469fc94912166b[m
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Mon May 6 08:52:41 2019 +0100
+
+    cleaned up code
+
+[33mcommit 12e6ebd7064002c51adc2aceffcccae13522ed73[m
+Merge: d2e2934 bfe1ae2
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Mon May 6 00:21:45 2019 -0700
+
+    Merge pull request #14 from alokbya/demo
+    
+    changed logic for overview page, and added day one information
+
+[33mcommit bfe1ae2dda1f6e338e935b20360f8fa503f43852[m
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Mon May 6 01:21:00 2019 -0600
+
+    changed logic for overview page, and added day one information
+
+[33mcommit d2e293497e7cfc29ee21e2dc2f682620b4a5ca2b[m
+Merge: e11984b 5ff23b4
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Sat May 4 14:54:59 2019 -0700
+
+    Merge pull request #13 from alokbya/origin/master
+    
+    Origin/master
+
+[33mcommit 5ff23b443276affbe61b867109718f36b2cf7666[m
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Sat May 4 15:52:57 2019 -0600
+
+    Paisley fixed the semi-colon and gps issues
+
+[33mcommit d133a92101b1467e539c3479fdbcbfcc9d953120[m
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Sat May 4 15:47:03 2019 -0600
+
+    trying to find dublin
+
+[33mcommit 155fda6d32dfe48fbf3f3d367c7a88be3602f204[m
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Sat May 4 15:28:47 2019 -0600
+
+    added icon to index.html
+
+[33mcommit e11984bbbc6227682fc5180d402be054c331962b[m
+Merge: 7c2975e 4e03694
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Sat May 4 14:24:52 2019 -0700
+
+    Merge pull request #12 from alokbya/demo
+    
+    modified overview page
+
+[33mcommit 7c2975ec682a6f1b224f5934e7eae02a0ff63385[m
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Fri May 3 10:55:56 2019 -0700
+
+    fixed spelling
+
+[33mcommit 4e03694da45a49f970da1114dad483c49663c27a[m[33m ([m[1;31morigin/origin/demo[m[33m)[m
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Thu May 2 21:52:54 2019 -0600
+
+    modified overview page
+
+[33mcommit bfa869cf3f09db804021b1f5e0174531ce6011cd[m
+Merge: 23ba52b 2d7ef8e
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Thu May 2 21:33:15 2019 -0600
+
+    Merge pull request #11 from alokbya/origin/master
+    
+    oadded shadow to journal portion
+
+[33mcommit 2d7ef8ea9b32f673ad88271cf9507bab3c5a7798[m
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Thu May 2 21:30:49 2019 -0600
+
+    added shadow to journal portion
+
+[33mcommit 23ba52b4be8e75bd7b2e3d8eae45c98a4e7178ea[m
+Merge: bbcbaad 0a59d74
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Thu May 2 21:16:52 2019 -0600
+
+    Merge pull request #10 from alokbya/origin/demo
+    
+    Merge remote-tracking branch 'origin/master' into demo
+
+[33mcommit bbcbaad1e02a7cc712db0c4467b556f8a43b686a[m
+Merge: 354882e 441f392
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Thu May 2 21:16:38 2019 -0600
+
+    Merge pull request #9 from alokbya/demo
+    
+    added icon to overview page
+
+[33mcommit 0a59d74dbdc74c3b0e8dcce9f4a6f7bacaee2cd6[m
+Merge: 441f392 354882e
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Thu May 2 21:14:48 2019 -0600
+
+    Merge remote-tracking branch 'origin/master' into demo
+
+[33mcommit 441f392d689176c74ce8f9b4cbaf635a15cb43f9[m
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Thu May 2 21:14:19 2019 -0600
+
+    added icon to overview page
+
+[33mcommit 354882e2a2ceb323c376756abb1cec22915e9bd2[m
+Merge: afa2c8f 146b0b4
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Thu May 2 17:54:16 2019 -0600
+
+    Merge pull request #8 from alokbya/origin/master
+    
+    Origin/master
+
+[33mcommit 146b0b422eeddb94beef02fa059d13294027c059[m
+Author: Alaaddin Hiefield <AlokbyA@weyerhaeuser.com>
+Date:   Thu May 2 17:53:07 2019 -0600
+
+    dd
+
+[33mcommit fc0dacd9d2716c5648a88732ebe4e6893ffa8213[m
+Merge: ee299f2 afa2c8f
+Author: Alaaddin Hiefield <AlokbyA@weyerhaeuser.com>
+Date:   Thu May 2 17:37:11 2019 -0600
+
+    Merge branch 'master' of https://github.com/alokbya/alokbya.github.io into demo
+
+[33mcommit ee299f2eac2808a7f2e5304f373befbd14705c4b[m
+Author: Alaaddin Hiefield <AlokbyA@weyerhaeuser.com>
+Date:   Thu May 2 17:36:47 2019 -0600
+
+    commented overview
+
+[33mcommit afa2c8fec364b8d48d2ddf172d25124299f5a7aa[m
+Merge: d52b48f a294656
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Thu May 2 17:27:25 2019 -0600
+
+    Merge pull request #7 from alokbya/demo
+    
+    Demo
+
+[33mcommit a294656b578bc0e5601c8c572212343faf0c7b52[m
+Merge: 7eabee1 d52b48f
+Author: Alaaddin Hiefield <AlokbyA@weyerhaeuser.com>
+Date:   Thu May 2 17:26:27 2019 -0600
+
+    Merge branch 'master' of https://github.com/alokbya/alokbya.github.io into demo
+
+[33mcommit 7eabee10dc1af1373856fa5ae8cf03b74cd89dec[m
+Author: Alaaddin Hiefield <AlokbyA@weyerhaeuser.com>
+Date:   Thu May 2 17:24:46 2019 -0600
+
+    forgot something
+
+[33mcommit d52b48f80eddb98fc92ca94204a1a27e797d57e0[m
+Merge: 4b65134 678afcf
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Thu May 2 17:23:34 2019 -0600
+
+    Merge pull request #6 from alokbya/demo
+    
+    beta
+
+[33mcommit 678afcf48a1cb97d029cda56009b502dc1598c9b[m
+Author: Alaaddin Hiefield <AlokbyA@weyerhaeuser.com>
+Date:   Thu May 2 17:22:24 2019 -0600
+
+    beta
+
+[33mcommit 4b6513427307c06cf48bea8aaae052aebe13c423[m
+Author: Alaaddin Hiefield <AlokbyA@weyerhaeuser.com>
+Date:   Thu May 2 13:31:03 2019 -0600
+
+    changed something
+
+[33mcommit ea5958bf83ee5c34f2c02aea6d8847b1a23d4d7e[m
+Author: Alaaddin Hiefield <AlokbyA@weyerhaeuser.com>
+Date:   Thu May 2 13:11:01 2019 -0600
+
+    added index.html javascript file
+
+[33mcommit c52cf7d1d0826fbbcfe7d63a5418864756ab407c[m
+Author: Alaaddin Hiefield <AlokbyA@weyerhaeuser.com>
+Date:   Thu May 2 12:52:02 2019 -0600
+
+    removed L/R padding from #JournalIntro to remove the horizontal scrolling that was occuring on mobile
+
+[33mcommit b42462e988b1ff00d9db44030a10fbb82c138783[m
+Merge: 465b52e 954937c
+Author: Alaaddin Hiefield <AlokbyA@weyerhaeuser.com>
+Date:   Thu May 2 12:25:48 2019 -0600
+
+    Merge branch 'master' of https://github.com/alokbya/alokbya.github.io into demo
+
+[33mcommit 465b52e8c0fd3d10465dd99117c85a4da99c828e[m
+Author: Alaaddin Hiefield <AlokbyA@weyerhaeuser.com>
+Date:   Thu May 2 12:24:55 2019 -0600
+
+    added ios and android meta tag
+
+[33mcommit 954937ced1debbd2b85ab5c9fda496c543fde887[m
+Merge: f908343 47d46f3
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Thu May 2 12:18:57 2019 -0600
+
+    Merge pull request #5 from alokbya/demo
+    
+    Demo
+
+[33mcommit 47d46f328f2c359964ef8b472e86d38d4ba6f02d[m
+Author: Alaaddin Hiefield <AlokbyA@weyerhaeuser.com>
+Date:   Thu May 2 12:18:16 2019 -0600
+
+    organized everything
+
+[33mcommit 2e20c593ae05144ccf3a25ce8372855d648038f7[m
+Author: Alaaddin Hiefield <AlokbyA@weyerhaeuser.com>
+Date:   Thu May 2 12:05:48 2019 -0600
+
+    testing comment
+
+[33mcommit f9083430bdf8d7cc467df82989d78d58313ad199[m
+Author: Alaaddin Hiefield <AlokbyA@weyerhaeuser.com>
+Date:   Thu May 2 12:03:22 2019 -0600
+
+    changed font size of heading
+
+[33mcommit f57abe2a48b992f6e7c6b85d32bb95e62bcece92[m
+Author: Alaaddin Hiefield <AlokbyA@weyerhaeuser.com>
+Date:   Thu May 2 11:59:27 2019 -0600
+
+    fixed broken link to overview.html
+
+[33mcommit a7c294d4a48765ad249d0a056826b8cbf89e1ead[m
+Author: Alaaddin Hiefield <AlokbyA@weyerhaeuser.com>
+Date:   Thu May 2 11:57:59 2019 -0600
+
+    added flavicon
+
+[33mcommit 8a5b941d7a0bfd1b179c03a22568fd887df1104f[m
+Author: Alaaddin Hiefield <AlokbyA@weyerhaeuser.com>
+Date:   Thu May 2 11:47:25 2019 -0600
+
+    shuffled around files
+
+[33mcommit 92b068a3d845712701889219db4403b8710fa8e5[m
+Author: Alaaddin Hiefield <AlokbyA@weyerhaeuser.com>
+Date:   Thu May 2 10:41:38 2019 -0600
+
+    adjusted text size again
+
+[33mcommit 4c0e8fc023af0f340f94f1a88ffce29df9c0e7fd[m
+Author: Alaaddin Hiefield <AlokbyA@weyerhaeuser.com>
+Date:   Thu May 2 10:19:33 2019 -0600
+
+    adjusted text size to correspond with img size
+
+[33mcommit a84a3d78d6ff12a0764304f920241f79bb1804d4[m
+Author: Alaaddin Hiefield <AlokbyA@weyerhaeuser.com>
+Date:   Thu May 2 09:51:56 2019 -0600
+
+    fixed word sizing issue in description to the right of the picture of AP
+
+[33mcommit 2170123eac199e42928a7e41536823cdc5bd3fbe[m
+Merge: 17d67cb a3846e1
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Thu May 2 08:13:51 2019 -0600
+
+    Merge pull request #4 from alokbya/homepc
+    
+    Homepc
+
+[33mcommit a3846e1bec75fe5e1a12f44332811468b96488f3[m[33m ([m[1;31morigin/homepc[m[33m, [m[1;32mhomepc[m[33m)[m
+Author: Alaaddin Hiefield <AlokbyA@weyerhaeuser.com>
+Date:   Thu May 2 08:12:27 2019 -0600
+
+    Fixed overlap b/t picture and text
+
+[33mcommit fedf9cc14a685d8106c0aa08571f15e3fd78de0c[m
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Wed May 1 23:19:04 2019 -0600
+
+    tried to keep top row in correct columns so that pic and text stack when screen size reduces
+
+[33mcommit 17d67cbbf4b0ab179763ac5e3509f149781cbb58[m
+Author: Alaaddin Hiefield <AlokbyA@weyerhaeuser.com>
+Date:   Wed May 1 17:17:30 2019 -0600
+
+    organized html into rows / columns, replaced listed days with buttons. Added button for map view
+
+[33mcommit bbc1b6815ccf6d1b47cf92971ef01a454833163c[m
+Author: Alaaddin Hiefield <AlokbyA@weyerhaeuser.com>
+Date:   Wed May 1 16:43:09 2019 -0600
+
+    refactored the footer
+
+[33mcommit 80d199870f8c4515ba47e4a77ef5dd20202edd45[m
+Author: Alaaddin Hiefield <AlokbyA@weyerhaeuser.com>
+Date:   Wed May 1 15:28:06 2019 -0600
+
+    added conditional map marker
+
+[33mcommit cae5b8eb85004d7673531a0db435115252498415[m
+Author: Alaaddin Hiefield <AlokbyA@weyerhaeuser.com>
+Date:   Wed May 1 14:40:49 2019 -0600
+
+    added map
+
+[33mcommit 330c27a15d370d8a01586867cabe375d2e9736cd[m
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Wed May 1 00:22:03 2019 -0600
+
+    Update photo_addr.html
+
+[33mcommit d69102cc950c07c0c83db3cb64603ce14a41c995[m
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Wed May 1 00:17:28 2019 -0600
+
+    fixed
+
+[33mcommit 2a14f890ab850006221575cc8073dc5045693297[m
+Merge: 8dcf6a8 b3d3d4e
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Wed May 1 00:16:48 2019 -0600
+
+    Merge pull request #3 from alokbya/alokbya-patch-3
+    
+    upgraded html tag
+
+[33mcommit b3d3d4ecbc3999b4fd9ed8f403a1db495bef6950[m[33m ([m[1;31morigin/alokbya-patch-3[m[33m)[m
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Wed May 1 00:16:28 2019 -0600
+
+    upgraded html tag
+
+[33mcommit 8dcf6a8cca46e29616534d47562b3a100dea233b[m
+Merge: 273af62 5fdfb87
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Wed May 1 00:15:28 2019 -0600
+
+    Merge pull request #2 from alokbya/alokbya-patch-2
+    
+    added photo of olive
+
+[33mcommit 5fdfb875a82f0716372213ee8a029267a638f07d[m[33m ([m[1;31morigin/alokbya-patch-2[m[33m)[m
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Wed May 1 00:15:15 2019 -0600
+
+    added photo of olive
+
+[33mcommit 273af62bee85a95f316c637ee19b2b7dca380b6e[m
+Merge: d3d2d7d 6653d19
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Tue Apr 30 23:54:04 2019 -0600
+
+    Merge pull request #1 from alokbya/alokbya-patch-1
+    
+    deleted inappropriate language from comments
+
+[33mcommit 6653d1918939e4f4a56a8eee7b12d1b1eafda51a[m[33m ([m[1;31morigin/alokbya-patch-1[m[33m)[m
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Tue Apr 30 23:53:51 2019 -0600
+
+    deleted inappropriate language from comments
+
+[33mcommit d3d2d7d2ede0241e219c49837ccb65d89c07887b[m
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Tue Apr 30 23:50:47 2019 -0600
+
+    added from mobile
+
+[33mcommit 73feb2b558a2287f7b829f4bd2aa982f8bd6f76d[m
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Tue Apr 30 23:48:26 2019 -0600
+
+    added text to verify pushing from mobile
+
+[33mcommit 8602160b2874597a2912ad51e7edc4e49c6d4eef[m
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Tue Apr 30 23:21:20 2019 -0600
+
+    Commented out extra days
+
+[33mcommit 7da12668595c4574761215fa86d89a304db69530[m
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Tue Apr 30 23:21:11 2019 -0600
+
+    Commented out extra days
+
+[33mcommit f8854f186d7b769dfcfbd0cd07920ccd13d5edfc[m
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Tue Apr 30 22:11:04 2019 -0600
+
+    Update CNAME
+
+[33mcommit dbd7f963c3310ae0f6ce25886ca65e02b749bf90[m
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Tue Apr 30 22:00:00 2019 -0600
+
+    Update CNAME
+
+[33mcommit da53724d95f2660844d569dfb60281dafd13ed7e[m
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Tue Apr 30 21:59:46 2019 -0600
+
+    Update CNAME
+
+[33mcommit ca61d10eaec68a22fa9e9f606297b93542a28f11[m
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Tue Apr 30 21:57:05 2019 -0600
+
+    Update CNAME
+
+[33mcommit 0d32d9247a16bdf1e6fe33163b0a65cf8721ec0d[m
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Tue Apr 30 21:56:41 2019 -0600
+
+    Update CNAME
+
+[33mcommit a3ee19beb5e3fdce41479c881b8ed7a74a002e4c[m
+Author: Alaaddin Hiefield <alaaddin.hiefield@gmail.com>
+Date:   Tue Apr 30 21:56:07 2019 -0600
+
+    Create CNAME
+
+[33mcommit 72b1b7c3323afa38e7a2884f3b84417795ae3207[m
+Author: Paisley  Hiefield <paisleyhiefield@Paisleys-MBP.home>
+Date:   Thu Apr 25 21:20:17 2019 -0700
+
+    first commit
