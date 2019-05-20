@@ -50,6 +50,34 @@
     margin-bottom: 15px;
 }
 
+/* Day Six */
+.gallery-day6{
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 6vw);
+    grid-gap: 5px;
+    /* display: inline-block; */
+}
+
+.gallery-day6__item--1{
+    grid-column-start: 1;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 15;
+}
+.gallery-day6__item--2{
+    grid-column-start: 8;
+    grid-column-end: 21;
+    grid-row-start: 1;
+    grid-row-end: 15;
+}
+.gallery-day6__item--3{
+    grid-column-start: 1;
+    grid-column-end: 21;
+    grid-row-start: 15;
+    grid-row-end: 21;
+}
+
 /* Day Five */
 .gallery-day5{
     display: grid;
