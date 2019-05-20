@@ -50,6 +50,76 @@
     margin-bottom: 15px;
 }
 
+/* Day Five */
+.gallery-day5{
+    display: grid;
+    grid-template-columns: repeat(30, 1fr);
+    grid-template-rows: repeat(40, 6vw);
+    grid-gap: 5px;
+    /* display: inline-block; */
+}
+
+.gallery-day5__item--1{
+    grid-column-start: 1;
+    grid-column-end: 31;
+    grid-row-start: 1;
+    grid-row-end: 8;
+}
+/* .gallery-day5__item--2{
+    grid-column-start: 1;
+    grid-column-end: 8;
+    grid-row-start: 8;
+    grid-row-end: 18;
+} */
+.gallery-day5__item--3{
+    grid-column-start: 1;
+    grid-column-end: 22;
+    grid-row-start: 8;
+    grid-row-end: 18;
+}
+.gallery-day5__item--4{
+    grid-column-start: 22;
+    grid-column-end: 31;
+    grid-row-start: 8;
+    grid-row-end: 24;
+}
+.gallery-day5__item--5{
+    grid-column-start: 1;
+    grid-column-end: 22;
+    grid-row-start: 18;
+    grid-row-end: 24;
+}
+.gallery-day5__item--6{
+    grid-column-start: 1;
+    grid-column-end: 31;
+    grid-row-start: 24;
+    grid-row-end: 32;
+}
+.gallery-day5__item--7{
+    grid-column-start: 1;
+    grid-column-end: 10;
+    grid-row-start: 32;
+    grid-row-end: 41;
+}
+.gallery-day5__item--8{
+    grid-column-start: 10;
+    grid-column-end: 23;
+    grid-row-start: 32;
+    grid-row-end: 36;
+}
+.gallery-day5__item--9{
+    grid-column-start: 10;
+    grid-column-end: 23;
+    grid-row-start: 36;
+    grid-row-end: 41;
+}
+.gallery-day5__item--10{
+    grid-column-start: 23;
+    grid-column-end: 31;
+    grid-row-start: 32;
+    grid-row-end: 41;
+}
+
 
 /* Day Four */
 .gallery-day4{
