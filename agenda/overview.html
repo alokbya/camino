@@ -75,7 +75,7 @@
                     // mm = '06'
                     // dd='08'
                     
-                    var zoom    = 3;
+                    var zoom    = 8;
                     var lat     = 43.163141;
                     var long    = -1.23811;
                     
@@ -139,28 +139,33 @@
                             long = -2.2679632;
                             break;
                         case '0519':
-                            lat = 42.4627195;
-                            long = -2.4449852;
+                            lat = 42.43;
+                            long = -3.08;
                             break;
                         case '0520':
-                            lat = 42.4167413;
-                            long = -2.7294624;
+                            // Villafranca Montes de Oca
+                            lat = 42.3874;
+                            long = -3.3093;
                             break;
                         case '0521':
-                            lat = 42.4369439;
-                            long = -2.9550619;
+                            // Cardenuela Riopico
+                            lat = 42.3590;
+                            long = -3.5591;
                             break;
                         case '0522':
-                            lat = 42.41956769999;
-                            long = -3.1917747;
+                            // Tardajos
+                            lat = 42.3490;
+                            long = -3.8159;
                             break;
                         case '0523':
-                            lat = 42.3700787;
-                            long = -3.4795035;
+                            // Castrojeriz
+                            lat = 42.2885;
+                            long = -4.1424;
                             break;
                         case '0524':
-                            lat = 42.3439925;
-                            long = -3.696906;
+                            // Fromista
+                            lat = 42.2676;
+                            long = -4.4053;
                             break;
                         case '0525':
                             lat = 42.3439925;
@@ -175,28 +180,28 @@
                             long = -4.3468794;
                             break;
                         case '0528':
-                            lat = 42.3307302;
-                            long = -4.6140481;
+                            lat = 42.5987;
+                            long = -5.5671;
                             break;
                         case '0511':
                             lat = 40.8378518;
                             long = -5.541386;
                             break;
                         case '0529':
-                            lat = 42.4231911;
-                            long = -5.219490299999;
+                            lat = 42.4705;
+                            long = -5.9099;
                             break;
-                        case '0530':
-                            lat = 42.5669462;
-                            long = -5.495956;
-                            break;
+                            case '0530':
+                            lat = 42.4549;
+                            long = -6.0533;
+                            break; 
                         case '0531':
-                            lat = 42.4833413;
-                            long = -5.7293239;
+                            lat = 42.4917;
+                            long = -6.3429;
                             break;
                         case '0601':
-                            lat = 42.4833413;
-                            long = -5.7293239;
+                            lat = 42.5500;
+                            long = -6.5983;
                             break;
                         case '0602':
                             lat = 42.4549303;
@@ -227,25 +232,24 @@
                             long = -7.4536742;
                             break;
                         case '0609':
-                            lat = 42.82497559999999;
-                            long = -7.695852199999999;
+                            lat = 42.8782;
+                            long = -8.5448;
                             break;
                         case '0610':
-                            lat = 42.9128344;
-                            long = -8.024700500000002;
+                            lat = 42.8782;
+                            long = -8.5448;    
                             break;
                         case '0611':
-                            lat = 42.9045519;
-                            long = -8.3625168;
+                            lat = 42.8782;
+                            long = -8.5448;
                             break;
                         case '0612':
-                            lat = 42.8782132;
-                            long = -8.5448445;
-                            break;
+                            lat = 42.8782;  
+                            long = -8.5448;break;
                         default:
                             console.log('cannot find date.');
-                            lat = 53.42;
-                            long = -6.27;
+                            lat = 42.8782;
+                            long = -8.5448;
                     }
                     // today = mm + '/' + dd + '/' + yyyy;
                     document.write("As of: " + mm + "/" + dd + "/" + yyyy);
@@ -263,6 +267,7 @@
                     map.addLayer(markers);
                     markers.addMarker(new OpenLayers.Marker(position));
 
+                    zoom = 10;
                     map.setCenter(position, zoom);
                 </script>
                 </div>
@@ -274,6 +279,903 @@
 ***********-->
 
                 <div id="checkpoints">
+
+                    <!-- Porto -->
+                    <div class="row">
+                        <div id="day1" class="days">
+                            <div id="location">
+                                Porto, Day 37
+                            </div>
+                            <div id="pictures">
+                                <a href=""><img id="photo" class="dinner img img-fluid img-responsive" src="../images/day-photos/day-37/port-selfie.jpg" title="Viewing Porto from the port side."/></a>
+                                <!-- <a href="https://imgur.com/5V3KUJj"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/5V3KUJj.jpg" title="source: imgur.com" /></a>
+                                <a href="https://imgur.com/T0XU9aG"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/T0XU9aG.jpg" title="source: imgur.com" /></a> -->
+                                <a href="./photos.html"><span id="pic-desc">Check out all of the other photos in our album!</span></a>
+                            </div>
+                            <div id="notes">                                                                    
+                                Today we traveled from <i>Finisterre</i> to <i>Porto, Portugal</i>. Although that drive shouldn’t take much longer than a few hours (maybe four of them?), it took us all day. We dropped our friend off at the train station in <i>Santiago</i> and then made our way to <i>Portugal</i>. 
+                                <br><br>
+                                We were riding with a friend and so we talked and played music. The weather was nice and the scenery was great. It was fun to arrive in a new country with a different language. Neither of us speak Portugease, and we were happy to find everyone speaks English very well.
+                                <br><br>
+                                We stopped at a grocery store when we arrived in town, and bought food for the next two and a half days. We drove downtown to eat lunch near the city center and were delighted to find comfortable grass and warm sunshine.
+                                <br><br>
+                                After lunch we parted ways, but decided to meet up tomorrow for some touring. We went to our AirBnB and relaxed, caught up on some of this writing, and read our books. We cooked chicken and broccoli for dinner and had some red wine to sip on. 
+                                <br><br>
+                                Our place is completely decorated with wood paneling. It looked like a cabin which seems odd in the middle of <i>Porto</i>.
+                                <br><br>
+                                Early to sleep tonight in preparation for a lot of exploring tomorrow.
+                                <br><br>
+                             </div>  
+                        </div>
+                    </div>
+
+                    <!-- Finisterre -->
+                    <div class="row">
+                        <div id="day1" class="days">
+                            <div id="location">
+                                Finisterre, Day 36
+                            </div>
+                            <div id="pictures">
+                                <a href=""><img id="photo" class="dinner img img-fluid img-responsive" src="../images/day-photos/day-36/fisterre.jpg" title="On a rock at the end of the world."/></a>
+                                <!-- <a href="https://imgur.com/5V3KUJj"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/5V3KUJj.jpg" title="source: imgur.com" /></a>
+                                <a href="https://imgur.com/T0XU9aG"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/T0XU9aG.jpg" title="source: imgur.com" /></a> -->
+                                <a href="./photos.html"><span id="pic-desc">Check out all of the other photos in our album!</span></a>
+                            </div>
+                            <div id="notes">                                                                    
+                                This morning we awoke far too early, as our bodies are still on Camino schedule. We met up with our friends for breakfast, and then said a sad goodbye, or as we liked to call it, a “see you later”. At 9:00 AM we caught a taxi with two of our friends to the airport. The 4 of us decided to rent a car and drive to <i>Finisterre</i>, otherwise known as the end of the earth. Before we had maps, everyone truly believed this point to be the end of the world.
+                                <br><br>
+                                After a couple hours drive, we arrived at our hotel and were excited to be done with the hostel life. As it was now early afternoon, we headed out in search of some food. It was a Sunday, however, which can prove to be difficult in Spain, so we didn’t get our hopes up too high. As we walked towards the water, we discovered that there were a plethora of different restaurants open. We decided to sit at one where it looked like the most locals were eating. We ordered paella for three, and one of our friends ordered an octopus dish. We were starving by this time and received some judgement from the waitress for scarfing down all of the bread in our read basket, but we did not care. 
+                                <br><br>
+                                When the paella came out, I was unsure at first. It came with whole prawns sitting on the top, and I had never eaten one in my life. Luckily, one of our friends had, and he showed us how you had to separate the head and body and take out the meat from inside. I was uneasy at first, but once I tasted the meat, it was worth it. We ate and ate until we could no more, and accepted defeat. Paella: 1, Us: 0. 
+                                <br><br>
+                                With full bellies, we headed towards the <i>Finisterre lighthouse</i> to officially reach the very end of the Camino. The view we walked to was amazing! It was worrisome at first, because as we walked through  the parking lot, towards the light house, an alarming amount of people seemed to be buzzing around. But once you are out on the rocks, near the sea, all sounds of chatting and walking seem to get drowned out by the noise of the water sloshing (sometimes piledriving) against the rocks. We each took time to ourselves to sit looking out and thinking about the journey that the Camino took us on.
+                                <br><br>
+                                We drove back down towards out hotel and took a pit stop at the beach. It was not exactly the weather that I imagined for out last day, but I can say that it wasn’t raining, which is a win. It was cool, and a strong wind blew along the coast. We decided that we still needed to jump into the ocean for symbolic reasons. We stripped down and all ran into the salty sea. While it wasn’t as frigid as what we are used to on Oregon beaches, it wasn’t exactly inviting to stay, so we all scampered back to our pile of clothes and headed for the car.
+                                <br><br>
+                                The rest of the night was spent reminiscing and discussing what the Camino meant to each of us individually. It was a good conversation with good people, like many of our nights have ended on this trip. 
+                                <br><br> 
+                            </div>  
+                        </div>
+                    </div>
+
+                     <!-- Santiago -->
+                     <div class="row">
+                        <div id="day1" class="days">
+                            <div id="location">
+                                Santiago, Day 35
+                            </div>
+                            <div id="pictures">
+                                <a href=""><img id="photo" class="dinner img img-fluid img-responsive" src="../images/day-photos/day-35/santiago.jpg" title="Sitting on a sign."/></a>
+                                <!-- <a href="https://imgur.com/5V3KUJj"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/5V3KUJj.jpg" title="source: imgur.com" /></a>
+                                <a href="https://imgur.com/T0XU9aG"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/T0XU9aG.jpg" title="source: imgur.com" /></a> -->
+                                <a href="./photos.html"><span id="pic-desc">Check out all of the other photos in our album!</span></a>
+                            </div>
+                            <div id="notes">                                                                    
+                                We awoke with excitement. It was sort of like waking up on Christmas day as a child. We had set our alarms early in order to get to Santiago earlier in the day, but the time didn’t seem to matter, we were almost to our goal! We all fumbled around in the dark, packed our bags and met in the common area of the alburgue for a quick breakfast - consisting of whatever we could scrounge up from the store the day before. 
+                                <br><br>
+                                We left the alburgue and were welcomed by the cool and calm morning air. It was still dark, so those of us with headlamps lead the way, and we walked quickly, getting more and more excited with each step. As we emerged from
+                                The forest, we were greeted with a beautiful sunrise. We had seen so many beautiful sunrises along the trail, but this one carried extra significance. 
+                                <br><br>
+                                Somewhere about halfway to Santiago, we came upon a cute cafe and decided to stop for second breakfast and coffee. Oh, by the way, on the Camino there are way more than three meals a day. A typical day looks like this: first breakfast, second breakfast, snack, lunch, maybe second lunch, probably some more snacks, and then dinner. We all sat around, and our friend informed us of one of the great traditions on the Camino. Between where we were sitting and Santiago, there existed a hill that we needed to climb. At the top of the hill is a great view of Santiago. The legend goes like this: the first of your group to reach the top of this hill and spot the Cathedral is deemed the King (or Queen) of your group. With this knowledge in mind, we began to walk to Santiago. 
+                                <br><br>
+                                There were a few sections with small hills along the rest of the way. None of us knew which hill would lead to the spectacular view, and so we walked up each one while anxiously glancing from person to person-- ready to drop everything and sprint the moment someone jumped. 
+                                <br><br>
+                                Three of the guys from our group started to speed up a little bit. A large hill was in front of us, and although no one started running, we all knew what was about to happen. 
+                                <br><br>
+                                We were about 20 meters behind the three guys, and we decided that Paisley should make a run for it to claim the throne. I took her pack and she bolted. It didn't take long for them to hear her behind them, but they were too late. One of them attempted to get in her way, but stood no chance. She juked him and added a little shove to create enough separation and lunged ahead. Those three stood there, beginning the process of grieving their defeat, and watched as Paisley ascended to the summit.
+                                <br><br>
+                                It took everyone else a few minutes to reach the top of the hill, and to the dismay of a few of us, and the delight of others, we all realized that this was not the hill of legends told. 
+                                <br><br>
+                                We all continued to walk and a much less climactic hill emerged in the distance. Our friends took off, hoping to be named “king”. 
+                                <br><br>
+                                From the top of that hill to the Cathedral, we walked through the outskirts of <i>Santiago de Compostela</i>. It was nice to be walking through a big town again, after so many days spent in little villages. I can’t recall exactly how far it is from the hill, but the walk toward the old town seemed to last forever. 
+                                <br><br>
+                                The smell of fresh bread wafting from panaderías accompanied by conversations overheard in a number of different languages told us we had arrived. Walking into the square we could feel the Cathedral towering over us, a magnificent piece of architecture.
+                                <br><br>
+                                As magical as this moment felt like it should be, it didn’t seem as grand as we had hoped. Nonetheless we took our photos, hugged our friends and a few other bystanders, took photographs of tourist groups who insisted we do so, and then made our way to the tourist office to receive our certificate of completion. 
+                                <br><br>
+                                We all went separate ways to check in to where we’d be sleeping, and decided to meet up for one last night on the town with the whole gang. 
+                                <br><br>
+                                Once we met up, we walked to a grocery store and bought some wine and headed toward a viewpoint on the south-west side of town. As we approached the viewpoint we found a travelling carnival had set up in the same park. We found a nice spot to sit and talk while watching the sunset light up the cathedral in the center of the city.
+                                <br><br>
+                                After sunset everyone decided to head to one of the albergues for some more conversation. Four of us decided to try the Big Wheel, a gigantic ferris wheel that blasted clubbing music and had somehow a better view of the city lights than our hangout spot. 
+                                <br><br>
+                                We spent the rest of the night with our friends and it started to feel like the end of our adventure.
+                                <br><br>
+                                The rest of the walk into town went by all too quickly and before we knew it, we were at the Cathedral! I had been thinking of the moment we would finish walking for the past few weeks, and it just did not feel the same way that I had thought it would. 
+                            </div>  
+                        </div>
+                    </div>
+
+
+                    <!-- Arca (O Pedrouzo) -->
+                    <div class="row">
+                        <div id="day1" class="days">
+                            <div id="location">
+                                Arca (O Pedrouzo), Day 34
+                            </div>
+                            <div id="pictures">
+                                <a href=""><img id="photo" class="dinner img img-fluid img-responsive" src="../images/day-photos/day-34/definitly-the-photo-from-our-walk-to-arca-and-not-just-some-other-photo-that-we-are-using-because-we-forgot-to-take-a-photo-of-that-day.jpg" title="Sitting on a sign."/></a>
+                                <!-- <a href="https://imgur.com/5V3KUJj"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/5V3KUJj.jpg" title="source: imgur.com" /></a>
+                                <a href="https://imgur.com/T0XU9aG"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/T0XU9aG.jpg" title="source: imgur.com" /></a> -->
+                                <a href="./photos.html"><span id="pic-desc">Check out all of the other photos in our album!</span></a>
+                            </div>
+                            <div id="notes">                                                                    
+                                The second to last day was a short one, just as we planned it. We started in the morning in our regular groove, quiet and thoughtful, and stopped for breakfast and <i>sellos</i> in a town about 10 km from the start of our day. 
+                                <br><br>
+                                Breakfast was a pastry and coffee, and good conversation. While sitting at the tables in front of the cafe we saw a few friends from earlier in the camino pass us by, waving hello and heading on their way.
+                                <br><br>
+                                It has been kind of frustrating seeing so many people on the trail these past few days. The number of people has seemed to increase tenfold, which has similarly altered the noise level on the trail. It is kind of hard to get lost in thought without headphones in this section of the Camino.
+                                <br><br>
+                                We continued walking and decided not to take any breaks until we reached our destination, which was a cool 12 km away from breakfast. 
+                                <br><br>
+                                It was a pretty smooth walk. We walked and talked and ate some cashews on the way. 
+                                <br><br>
+                                When we arrived into town we saw that the municipal albergue was packed. The doors had not opened yet, but hoards of people were sitting outside waiting to be checked in. This was a little bit concerning because these places do not accept reservations and we wanted a 5 euro bed for the night. 
+                                <br><br>
+                                We made it in and had an entire wing of 8 beds with friends that we have been walking with recently.
+                                <br><br>
+                                We made our way into town for some food. Lunch was great, but demonstrated a prime example of what happens when my eyes are bigger than my stomach. We walked away from a good deal of food, but were so full it didn’t matter much anyway. 
+                                <br><br>
+                                We ate calamari, patatas bravas, eggs and bacon, and croquettes which are potato things that are fried and crunchy on the outside and mushy on the inside. It was all very delicious.
+                                <br><br>
+                                We all walked back to albergue and most of us took a nap which lasted several hours. When we woke up we went to town again for a few groceries. 
+                                <br><br>
+                                There was nothing special in the store and so we all went back. 
+                                <br><br>
+                                For the rest of the night we sat in our bunks and talked about the luxuries of everyday life back home. We were all tired and excited to reach Santiago.
+                                <br><br>
+                            </div>  
+                        </div>
+                    </div>
+
+                    <!-- Arzúa -->
+                    <div class="row">
+                        <div id="day1" class="days">
+                            <div id="location">
+                                Arzúa, Day 33
+                            </div>
+                            <div id="pictures">
+                                <a href=""><img id="photo" class="dinner img img-fluid img-responsive" src="../images/day-photos/day-33/taco-night.jpg" title="Sitting on a sign."/></a>
+                                <!-- <a href="https://imgur.com/5V3KUJj"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/5V3KUJj.jpg" title="source: imgur.com" /></a>
+                                <a href="https://imgur.com/T0XU9aG"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/T0XU9aG.jpg" title="source: imgur.com" /></a> -->
+                                <a href="./photos.html"><span id="pic-desc">Check out all of the other photos in our album!</span></a>
+                            </div>
+                            <div id="notes">                                                                    
+                                We awoke very early this morning, in hopes that we might be able to outrun the rain. We had no such luck. Well, I shouldn’t say that, it did not rain for about the first hour, and then the sky’s unleashed fury on all of the peregrinos. The end of our Camino was so close, yet at the moment it did not feel that way. 
+                                <br><br>
+                                We stopped for a breakfast break just as it started to rain EVEN more. One of our friends had a very accurate weather app. It could tell you about how many minutes the rain was expected to last, and this time it told us that it may stop raining in about 19 minutes. Waiting that long sounded better than continuing through the rain, so we decided to test our luck. 
+                                <br><br>
+                                Indeed, about later 20 minutes and the rain was letting up. This was our queue. We started up again, and made it to <i>Melide</i> for lunch. We found a pizzeria and crammed into one long booth. After sharing pizzas and fries we all felt stuffed, but knew that it would be good fuel for the rest of the day. We left <i>Melide</i>, only to stop to begin the process of re-applying ponchos and full rain gear almost immediately. 
+                                <br><br>
+                                Apart from our very first day leaving <i>St. Jean Peid de Port</i>, the next 15 kilometers were the coldest on the Camino. It consistently rained the entire way. The rain fluctuated between a haphazard drizzle and a dark downpour. If there was ever a time to run the rest of the way to town, this would have been it. Physically unable to run with my pack on (for fear of complete knee explosion), I resorted to putting on the most motivating playlist I had (the playlist I used for my half marathon) and keep a quick pace. Stopping didn’t feel like an option at this point. I was walking fast enough that my base layers were soaked in sweat, and it was raining hard enough that the rain had soaked through my rain jacket and my quarter zip. This made me too cold when I stopped walking, so I simply didn’t stop until I reached Arzúa. 
+                                <br><br>
+                                We had reserved a room for the 8 of us and luckily our hospitalero was nice enough to let us shower and change into warm clothes before starting the albergue check in process. We all laid in our bunks swaddled in blankets for awhile, but eventually the need for dinner overcame our desire to remain vegetables in our beds. We decided that we would go to the grocery store and make a family style taco dinner in the kitchen of our alburgue. This turned out to be one of the best nights!! Everyone hung out, cooked dinner, and impromptu haircuts were even administered. In all, we had a tough day walking, but the time we spent together that night was memorable. 
+                                <br><br>
+                            </div>  
+                        </div>
+                    </div>
+
+                    <!-- Ligonde -->
+                    <div class="row">
+                        <div id="day1" class="days">
+                            <div id="location">
+                                Ligonde, Day 32
+                            </div>
+                            <div id="pictures">
+                                <a href=""><img id="photo" class="dinner img img-fluid img-responsive" src="../images/day-photos/day-32/portomarin.jpg" title="Sitting on a sign."/></a>
+                                <!-- <a href="https://imgur.com/5V3KUJj"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/5V3KUJj.jpg" title="source: imgur.com" /></a>
+                                <a href="https://imgur.com/T0XU9aG"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/T0XU9aG.jpg" title="source: imgur.com" /></a> -->
+                                <a href="./photos.html"><span id="pic-desc">Check out all of the other photos in our album!</span></a>
+                            </div>
+                            <div id="notes">                                                                    
+                                We woke up and walked to the restaurant outside of our alburgue and had a great breakfast of bacon and eggs. Our friend who had stayed the night in Sarria caught up with us for breakfast as well. We all left happy, full and ready to start the new day. 
+                                <br><br>
+                                Our goal was to walk to <i>Portomarín</i> for lunch, a town about 20 km away. With this goal in mind, we walked at our own pace and sort of got into flow, mentality. At times, it is almost better when your destination is farther away. You stop looking at the kilometers, all you know is that it is far, and that is enough for you to allow your mind to wander. 
+                                <br><br>
+                                We arrived at <i>Portomarín</i> in time for lunch and sat for a rest. Most of us ordered a single-person pizza while others who were not able to enjoy such a luxury ordered a ham and bacon sub. 
+                                <br><br>
+                                We sat for quite a while. It had been raining on and off during the walk to this town, and it was hard to find the motivation to keep on going. Eventually we decided enough was enough and started on our way. We continued to each walk our own pace and listen to music and watch the world around us. 
+                                <br><br>
+                                The last 10 km were difficult. Around every corner we were hoping to find our little village for the night, but it seemed as though we would never get there. 
+                                <br><br>
+                                Eventually we arrived into town. We stopped at the first albergue and learned that they were unfortunately full for the evening. We had two friends staying there that told us they had a wonderfully odd experience staying there.
+                                <br><br>
+                                We walked another 300 m to the next albergue (the municipal albergue) and found it nearly empty, but with the remaining friends from our group that were not able to fit into the previous albergue either. We all had whole bunk-beds to ourselves, so we were able to store our belongings on the top bunk, and sleep in the bottom-bunks. This is ideal for middle-of-the-night bathroom breaks.
+                                <br><br>
+                                Those of us in the municipal albergue walked to a bar for dinner, about 1 km away. We had delicious food and drinks, and had a heart-to-heart during a very campy dinner conversation. Our friend suggested we try a digestif, either Orujo or Patxaran, I don’t quite remember which one it was. It was bright yellow-green and tasted a bit like licorice. 
+                                <br><br>
+                                We all walked back, washed our clothes, and got ready for bed. It was a lovely evening and everyone seemed to bond a bit over dinner. We are all looking forward to good sleep.
+                                <br><br>
+                            </div>  
+                        </div>
+                    </div>
+
+                    <!-- Barbadelo -->
+                    <div class="row">
+                        <div id="day1" class="days">
+                            <div id="location">
+                                Barbadelo, Day 31
+                            </div>
+                            <div id="pictures">
+                                <a href=""><img id="photo" class="dinner img img-fluid img-responsive" src="../images/day-photos/day-31/sarria.jpg" title="Sitting on a sign."/></a>
+                                <!-- <a href="https://imgur.com/5V3KUJj"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/5V3KUJj.jpg" title="source: imgur.com" /></a>
+                                <a href="https://imgur.com/T0XU9aG"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/T0XU9aG.jpg" title="source: imgur.com" /></a> -->
+                                <a href="./photos.html"><span id="pic-desc">Check out all of the other photos in our album!</span></a>
+                            </div>
+                            <div id="notes">                                                                    
+                                We woke up and had a quick breakfast served by the same woman who ran the dance party last night. She is a woman of many talents. After we thanked her for such a memorable evening, we were on our way. 
+                                <br><br>
+                                The day began with a series of steep downhills which lasted several hours. It rained on and off. Eventually, we happened upon a small abode of which was surrounded by greenery. The door was ajar and we could see into a warm room which had art pieces hung up on the walls. A friend of ours walked out as we were setting down our bags and showed us a wonderful painting the man inside had drawn on his Camino passport in place of a cello (stamp). We went in to see if he would do the same for us. As we waited for the paint to dry, we talked to him for awhile. It turns out he had done the Camino himself, and found it so life changing that he wanted to buy property along The Way. He renovated a two story house and made the top story the art gallery and the bottom his dwellings. Before we left, he asked if he could say a prayer for us. We thanked him and went on our way. 
+                                <br><br>
+                                We continued to walk along a path that did not appear in the app that we were using. Due to this, we had no way to gauge how close we were to the end of the day. Eventually we met up with a few more friends when we stopped at a cafe for lunch, and continued to walk together the rest of the afternoon. 
+                                <br><br>
+                                We reached Sarria, which is the town that marks 100km left on the Camino. This is the least possible amount of the Camino you can walk and still receive your certification. We stopped to get snacks and take a few iconic “Sarria” pictures. 
+                                The rest of the walk was short, with a little uphill. Our evening was laid back as if mostly consisted of resting and chatting. We took our shoes in for the night instead of leaving them outside the alburgue - it was forecasted to be very stormy that night and the next day. 
+                                <br><br>
+                            </div>  
+                        </div>
+                    </div>
+                    
+                    <!-- Fonfria -->
+                    <div class="row">
+                        <div id="day1" class="days">
+                            <div id="location">
+                                Fonfria, Day 30
+                            </div>
+                            <div id="pictures">
+                                <a href=""><img id="photo" class="dinner img img-fluid img-responsive" src="../images/day-photos/day-30/party.jpg" title="A birthday party."/></a>
+                                <!-- <a href="https://imgur.com/5V3KUJj"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/5V3KUJj.jpg" title="source: imgur.com" /></a>
+                                <a href="https://imgur.com/T0XU9aG"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/T0XU9aG.jpg" title="source: imgur.com" /></a> -->
+                                <a href="./photos.html"><span id="pic-desc">Check out all of the other photos in our album!</span></a>
+                            </div>
+                            <div id="notes">                                                                    
+                                We slept in today, as we were not sleeping in bunk beds and our roommates were nice and quiet. Around 7:30 am we left the albergue and mentally prepared ourselves for a day of climbing. 
+                                <br><br>
+                                As we walked into the next closest town, we met up with a whole gang of friends that we had walked with in days past. We soon learned that today was extra special, it was our friend from Ireland’s birthday!! We decided to all walk together today, in the spirit of celebration. As we talked and walked up and up, time passed quickly. We were soon at a town called <i>O Cebreiro</i> and it was stunning. On the way in, there was a great viewpoint, at which you could see a sea of mountains. We sat down to rest and for a celebratory round of birthday beers, and then set off to our final destination for the day: Fonfria. 
+                                <br><br>
+                                When we arrived, we were tired and somewhat sleepy. We had planned on making margaritas and tacos for dinner, but soon discovered that this town did not have a grocery store. So instead, we were all forced to buy the dinner from the alburgue. The mood was low, as we had been talking about tacos all day long, but little did we know it would be one of the best experiences on the camino.
+                                <br><br>
+                                We walked down to the round building where dinner was being held and sat at one long family style”table. The first course came out, and it was served by a wonderful and happy woman. We started with a Galecian stew. Then, a second course of rice, peppers and meat was served. The meat, a type of beef I assume, was similar to what we had in the albergue we stayed at without any other pilgrims. The meat tasted buttery, and melted in my mouth. 
+                                <br><br>
+                                Everyone was happily chatting, when all of a sudden the lights went out. The woman who had been serving us emerged with a cake and candles, and started a round of “Feliz Cumpleanos”. We all sang happy birthday and then our friend blew out the candles.  
+                                <br><br>
+                                As everyone ate their dessert, music blasted from the stereo at the entrance. The woman pointed at the birthday boy, calling him onto the dance floor. They danced and she continued to call on other shy men to dance with her. People began to leave their seats and join them on the dance floor. The following two hours was a dance party unlike any other Camino dance party. 
+                                <br><br>
+                                After a while, we started doing group dances like the Macarena, the Hustle, Gangnam style, and the cha-cha slide. Everyone was sweating again and smiling by the time we all were forced to leave. 
+                                <br><br>
+                                We are going to bed content with the wonderful day we had shared with our friends, looking forward to a day of downhill. 
+                                <br><br>
+                            </div>  
+                        </div>
+                    </div>
+
+                    <!-- Trabadelo-->
+                    <div class="row">
+                        <div id="day1" class="days">
+                            <div id="location">
+                                Trabadelo, Day 29
+                            </div>
+                            <div id="pictures">
+                                <a href=""><img id="photo" class="dinner img img-fluid img-responsive" src="../images/day-photos/day-29/biker.jpg" title="A bridge."/></a>
+                                <!-- <a href="https://imgur.com/5V3KUJj"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/5V3KUJj.jpg" title="source: imgur.com" /></a>
+                                <a href="https://imgur.com/T0XU9aG"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/T0XU9aG.jpg" title="source: imgur.com" /></a> -->
+                                <a href="./photos.html"><span id="pic-desc">Check out all of the other photos in our album!</span></a>
+                            </div>
+                            <div id="notes">                                                                    
+                                We woke up early today. Partly because we wanted to beat the heat and partly because we had a roommate of whom sounded not unlike a chainsaw when snoring. We had packed up the night before, so we slid out the door and got walking. 
+                                <br><br>
+                                We walked about 10 km until we stopped for breakfast. The next part of the trail we had the option to choose between two paths. One route took us along the road, and one went up into the hills, but was a few kilometers longer. We were tired and chose to take the road. It turned out to be very entertaining however, because there was some sort of road bicycle race taking place. They were riding the opposite direction, but they yelled an occasional “buen camino!!” which made me smile. In the very least, it was something to watch as we walked.
+                                <br><br>
+                                Around lunch time, we made it to <i>Villafranca del Bierzo</i> and sat down to rest our feet. Neither of us were very hungry in that moment, but we decided to sip some orange juice and watch the local run going on in town (it seemed like quite the day for racing!). Once we were ready, we carried on.
+                                <br><br>
+                                The rest of the walk that day was very boring. It was along a highway that was very busy and we walked along a narrow path. Because it was hard to talk, we resorted to our headphones to use music as inspiration to keep walking.
+                                <br><br>
+                                As we walked into town, we began to look for the municipal albergue that we had planned to stay in. As we wandered through town, however, a different albergue just up above the river caught our eyes. It was only 5€ to stay, but it was very cute looking. It had a modern yet rustic look to it. We decided to stop in and see if they had any beds left for the day. We were greeted by a friendly couple. The woman that originally started the albergue was from Australia and the man was from Spain. There were only 12 beds in this albergue, but they had 2 left for us, and so we decided to stay. They also had a dinner that they provided for the pilgrims and so we decided to opt for that as well.
+                                <br><br>
+                                When dinner time rolled around, all of the other pilgrims in our albergue emerged to sit at one big table. We had gone down to the river to soak our feet, and others had busied themselves with laundry, napping or simply resting. As we sat around the table, conversation seemed easy. Everyone chatted away, until the food arrived, you could tell that everyone was hungry. The dinner that we had was simply incredible!! We started off with a vegetable salad of sorts that consisted of chickpeas, pine nuts, bread crumbs, spinach, olive oil and roasted cauliflower. Then, we had pasta that had been mixed with roasted peppers and many spices and herbs that were grown in their garden out back. To finish it all off, we had homemade orange sherbet. We were both absolutely stuffed, but so very satisfied. 
+                                <br><br>
+                                As we all sat on the verge of a food coma, the woman who ran the albergue began to explain how it had come to be. She had done the Camino many years ago, and she continued on hiking all different kinds of Camino’s for 6 months. When she returned to Australia, she knew she wanted to keep the Camino in her life, so she sold her flower shop and began to look for property. Once she attained the location, there was still a lot of renovations to do. The end product was amazing though, and it reminded me of something that you might see on fixer upper! In all, we went to bed happy and satisfied with a night of talking to great people!
+                                <br><br> 
+                            </div>  
+                        </div>
+                    </div>
+
+                    <!-- Ponferrada -->
+                    <div class="row">
+                        <div id="day1" class="days">
+                            <div id="location">
+                                Ponferrada, Day 28
+                            </div>
+                            <div id="pictures">
+                                <a href=""><img id="photo" class="dinner img img-fluid img-responsive" src="../images/day-photos/day-28/cruz.jpg" title="Standing in front of the highest geographical point along the Camino Frances."/></a>
+                                <!-- <a href="https://imgur.com/5V3KUJj"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/5V3KUJj.jpg" title="source: imgur.com" /></a>
+                                <a href="https://imgur.com/T0XU9aG"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/T0XU9aG.jpg" title="source: imgur.com" /></a> -->
+                                <a href="./photos.html"><span id="pic-desc">Check out all of the other photos in our album!</span></a>
+                            </div>
+                            <div id="notes">                                                                    
+                                We woke up early to catch the sunrise at a cross at the top of a mountain today. At 5:50 alarms went off and people began to sort their belongings and pack up for the day. 
+                                <br><br>
+                                We walked quickly through the dark, along a dirt path, following the headlamps of some people that had left before us. After about twenty minutes of walking we reached the cross. 
+                                <br><br>
+                                I don’t know much about the significance of the structure, but it is called <i>Cruz de Ferro</i> and it seems to be significant to different people for different reasons. There is an article that describes some of the detail behind the cross at the highest geographical point along the Camino Frances, <a href="https://caminoways.com/cruz-de-ferro" target=_blank>here.</a>
+                                <br><br>
+                                I took out my rock and spent some time thinking about the trip so far. This became a camp-like moment for me, and so I went with it. I reflected on the journey and what was yet to come, and what the near future holds. I left my stone near the top and Paisley and I continued on, with the sunrise at our backs.
+                                <br><br>
+                                We walked for a few more hours until we reached <i>El Acebo</i>, where we stopped to join our friends for breakfast. They mentioned that this albergue served amazing breakfasts, and we were excited to give it a try. 
+                                <br><br>
+                                We walked up a winding driveway to a beautiful new building with large glass windows and a bright green lawn. Out front, a patio with fifty tables were organized, some of which were under a large tent to protect visitors from the sun. 
+                                <br><br>
+                                Our friends were the only ones there, so we dropped our bags and went inside to pay 5 Euros for an all-you-can-eat buffet of breakfast food. 
+                                <br><br>
+                                I was not able to have everything, but I took a few muffins, cereal without milk, orange juice, bread and ham, and three espressos out to the front lawn with me. Paisley and I went back for coffee once more. 
+                                <br><br>
+                                We continued to walk, and the next stretch got easier as time went on. Soon it became like walking on clouds. Before we knew it, we reached <i>Molinaseca</i>. We saw a river flowing under an old bridge, with lovely grass on each bank, so we sat down to soak our feet for a while. 
+                                <br><br>
+                                We walked a little bit more and finally reached <i>Ponferrada</i>. The heat from the day was a bit overwhelming, but it felt good to sweat. Some friends of ours wanted to walk a few more kilometers to a Decathlon store for a new pair of shorts, so we joined along after checking into our albergue. 
+                                <br><br>
+                                We headed out, only to realize that the day was becoming more and more hot. The longer we walked, the more we questioned if it was entirely worth the trip. We eventually reached Decathlon, walked around, and then went into a next-door McDonald’s for some food. We sat and ate and then got beers to go for the 3 km walk back to the albergue. We also stopped at a grocery store near our albergue and then proceeded to buy and eat an entire watermelon. It was delicious. 
+                                <br><br>
+                                After showering and getting ready for the night we joined our group for dinner and drinks. We decided to order kebabs, which were delicious. 
+                                <br><br>
+                                The next day will be at Trabadelo if we can make it that far.
+                                <br><br> 
+
+                            </div>  
+                        </div>
+                    </div>
+
+                    <!-- Foncebadon -->
+                    <div class="row">
+                        <div id="day1" class="days">
+                            <div id="location">
+                                Foncebadon, Day 27
+                            </div>
+                            <div id="pictures">
+                                <a href=""><img id="photo" class="dinner img img-fluid img-responsive" src="../images/day-photos/day-27/views.jpg" title="This wall was in the enterance of the albergue. The hosts provide paint for pigrims to paint pictures for them."/></a>
+                                <!-- <a href="https://imgur.com/5V3KUJj"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/5V3KUJj.jpg" title="source: imgur.com" /></a>
+                                <a href="https://imgur.com/T0XU9aG"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/T0XU9aG.jpg" title="source: imgur.com" /></a> -->
+                                <a href="./photos.html"><span id="pic-desc">Check out all of the other photos in our album!</span></a>
+                            </div>
+                            <div id="notes">                                                                    
+                                We woke up early to get a few miles in before it got hot. We made our way through town, setting a rhythm with our trekking poles, and deep in concentration. We decided to walk 5 km to the next town for coffee, and to eat a breakfast of foods we bought at the supermarket yesterday. 
+                                <br><br>
+                                Coffee was an ordeal. So many people stopped that we had trouble ordering, and ended up wasting a half-hour in line. 
+                                <br><br>
+                                We continued on toward the mountain. At this point, we were well into the foothills. It was not difficult to continue walking on-- the change in scenery was welcome and pleasant on the eyes. 
+                                <br><br>
+                                The day started to heat up. I’m not quite sure how hot it got, but we were both sweating and stopped often for rest and water. 
+                                <br><br>
+                                We continued to climb throughout the late morning, and eventually saw the small town near the top of the mountain that we would be staying in. The town is undergoing construction on the main road, so we had to cross a few rough patches littered with broken concrete and large construction equipment, but found our albergue easily. 
+                                <br><br>
+                                The showers are great, and the view on the back deck is incredible. I’m convinced that I can see Pamplona from here. We are sitting out here and talking to others, waiting for dinner that we are told will be lentils and chorizo. 
+                                <br><br>
+                                Our plans for tomorrow are to wake up early and join others in watching the sunrise next to a large cross on the top of the mountain. It’s hard to beat a good sunrise, so we are all excited. 
+                                <br><br>
+                            </div>  
+                        </div>
+                    </div>
+
+                    <!-- Astorga -->
+                    <div class="row">
+                        <div id="day1" class="days">
+                            <div id="location">
+                                Astorga, Day 26
+                            </div>
+                            <div id="pictures">
+                                <a href=""><img id="photo" class="dinner img img-fluid img-responsive" src="../images/day-photos/day-26/chocolate.jpg" title="This wall was in the enterance of the albergue. The hosts provide paint for pigrims to paint pictures for them."/></a>
+                                <!-- <a href="https://imgur.com/5V3KUJj"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/5V3KUJj.jpg" title="source: imgur.com" /></a>
+                                <a href="https://imgur.com/T0XU9aG"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/T0XU9aG.jpg" title="source: imgur.com" /></a> -->
+                                <a href="./photos.html"><span id="pic-desc">Check out all of the other photos in our album!</span></a>
+                            </div>
+                            <div id="notes">                                                                    
+                                We planned for a short day today. This was nice, following the 39 km we walked yesterday. There were a few small hills that we walked over in the morning, but still, the path was mostly flat. Astorga was a pleasant sight after the 16 km walk. We checked into the municipal albergue, and were assigned a room with four others that we had walked with. These are the same four we went to dinner with in Leon.
+                                <br><br>
+                                Paisley and I went to lunch in the Plaza de San Bartolome and had some comfort food. I ordered a burger with fries, and she had a beef burrito with corn, peppers, cheese, and avocado. 
+                                <br><br>
+                                Afterward, we walked to the pharmacy to pick up electrolyte tablets, ibuprofen cream (for the ol’ kneecaps), and Compeed for a few unwelcome blisters. 
+                                <br><br>
+                                Our next stop was to a supermarket that was in an adjacent plaza. We were pleasantly surprised with the selection that they provided. We found great dairy-free options, and other snacks for the road. 
+                                <br><br>
+                                We went back to the albergue for some rest, and decided to go back out to visit the cathedral and much talked about chocolate museum.
+                                <br><br>
+                                The cathedral was gorgeous. Great sculptures and detail covered the outside walls of the building. We decided not to pay for admission, but to sit in the courtyard and appreciate its ancient beauty. 
+                                <br><br>
+                                We then walked to the chocolate museum. We entered into the restored historical mansion without seeing anyone but the clerk at the front. We payed five Euros for the both of us to enter and started off into the first room: “The Cabinet of Curiosities.” Just then, a tour group of what seemed like no fewer than 200 people stampeded through the doors and ruined the quiet. 
+                                <br><br> 
+                                We finished our tour, learned a good deal on how chocolate is made, and made our way to the gift shop. We bought an almond chocolate bar that tastes like holiday fudge and melts in your mouth. I hope we find a way back to Astorga for more of this chocolate before we head back home.
+                                <br><br>
+                                We met up with the others and went to find a kebab place, with no luck. Instead we made our way back to the main plaza and sat down for a more traditional pilgrim meal. A few people had pizza, and others had salad and pasta. 
+                                <br><br>
+                                Today was filled with rest in preparation for tomorrow’s all-day climb. Now, it seems, we will begin to cross the Pyrenees, again. We are looking forward to viewing the Spanish countryside from a higher elevation.
+                                <br><br>
+                            </div>  
+                        </div>
+                    </div>
+
+                    <!-- Hospital de Orbigo -->
+                    <div class="row">
+                        <div id="day1" class="days">
+                            <div id="location">
+                                Hospital de Orbigo, Day 25
+                            </div>
+                            <div id="pictures">
+                                <a href=""><img id="photo" class="dinner img img-fluid img-responsive" src="../images/day-photos/day-25/fountain.jpg" title="This wall was in the enterance of the albergue. The hosts provide paint for pigrims to paint pictures for them."/></a>
+                                <!-- <a href="https://imgur.com/5V3KUJj"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/5V3KUJj.jpg" title="source: imgur.com" /></a>
+                                <a href="https://imgur.com/T0XU9aG"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/T0XU9aG.jpg" title="source: imgur.com" /></a> -->
+                                <a href="./photos.html"><span id="pic-desc">Check out all of the other photos in our album!</span></a>
+                            </div>
+                            <div id="notes">                                                                    
+                                Today we learned that you don’t always trust the internet or apps. Thus far, we have been using an app called Guthook to judge our distances and sleeping arrangements. No problems or complaints up until this point. However, today we walked more than we had planned.
+                                <br><br>
+                                The day started off with the walk out of Leon. It was about an 8 km stretch through the outreaches if the city. Almost immediately as we started walking we met a nice guy from Kentucky. We had pretty similar paces and so we chatted for a while. Suddenly I was surprised to realize that we had already walked 10 km and it was time to sit down for our morning espresso. 
+                                <br><br>
+                                During our break, we were joined by another guy from Kentucky (what are the odds!?!) and so the four of us set off for the day. Time passed quickly as we all chatted and soon lunch came. 
+                                <br><br>
+                                At this point we needed to make a decision about where we wanted to stay for the night. The next town would be a 13 km walk, which would put us at 33 km for the day. It was far for us, but we all felt ready to walk a little longer and knew that we would be rewarded by a shorter walk to the next town the following day. 
+                                <br><br>
+                                It was getting hotter and hotter, and later and later… judging by our average pace, I would have thought that we would have arrived by now. We stopped for a water and rest break and no one really wanted to get moving again, but we knew we had to. After what felt like eternity, we turned the corner into town and were welcomed by a beautiful bridge with flags hung everywhere and what looked to be a jousting arena set up down below. As we walked through town, we were in awe. Still, we could not believe how tired we were. 
+                                <br><br>
+                                We settled into our alburgue and the man running it asked where we started from. We told him León and he responded “phewww, that’s a long walk, I can’t believe you did over 39 km today!”... 39??? “We thought we did 33?” “No, from León it is 39 km!” We all exchanged looks of disbelief, but then we figured that may explain our extremely slow pace. At the end of the day, we were glad to be sitting and had a wonderful spaghetti with chorizo and garbanzo bean dinner! 
+                                <br><br>
+                            </div>  
+                        </div>
+                    </div>
+
+                    <!-- Leon -->
+                    <div class="row">
+                        <div id="day1" class="days">
+                            <div id="location">
+                                Leon, Day 24
+                            </div>
+                            <div id="pictures">
+                                <a href=""><img id="photo" class="dinner img img-fluid img-responsive" src="../images/day-photos/day-24/leaning.jpg" title="Alaa leaning on a statue's head"/></a>
+                                <!-- <a href="https://imgur.com/5V3KUJj"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/5V3KUJj.jpg" title="source: imgur.com" /></a>
+                                <a href="https://imgur.com/T0XU9aG"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/T0XU9aG.jpg" title="source: imgur.com" /></a> -->
+                                <a href="./photos.html"><span id="pic-desc">Check out all of the other photos in our album!</span></a>
+                            </div>
+                            <div id="notes">                                                                    
+                                We were excited to begin walking this morning, knowing that we would be staying in a nicer room in a bigger city. We decided to get a hotel style, private room in a hostel in the towncenter of Leon. Looking forward to this made the final stretch through the Meseta a little bit more bearable. 
+                                <br><br>
+                                We arrived in town in the afternoon, around 2:30 pm, and walked the 8 km from the edge of the city to the city center to find our building. We stopped at a little bakery for some snacks beside a cathedral, and Paisley ordered her first Spanish milkshake. From what I understand it was delightful.
+                                <br><br>
+                                When we arrived to the city center we found our building right away. It is an old building that houses many different businesses and apartments. We walked in and climbed the stairs to the floor that hosts our hostel, and entered into a beautiful room that looked as though it had been cut and pasted from the 1920s. 
+                                <br><br>
+                                There we found an old friend from earlier on in the Camino, and sat to catch up before showering and taking a tour around town.
+                                <br><br>
+                                We rested, recovered, updated the blog a little bit, and then went to join a group of other pilgrims we have recently gotten to know. Along for the ride, we joined them as they hopped from bar to bar to places that serve incredible tapas with the order of a drink. 
+                                <br><br>
+                                We found a bar that serves different types of <i>San Miguel</i> beer, and one of the types went by the name of <i>Portland</i>, so Paisley and I decided that we had to give it a try. It was great-- hoppy and a nice reminder of home. 
+                                <br><br>
+                                We all decided to head to a rooftop bar and made our way to meet the woman that we had seen in our hostel for a drink. The view was gorgeous, and as nicely complimented with good conversation. 
+                                <br><br>
+                                The group made a decision to find dinner, and neither Paisley nor I found any objection to that. We went to a restaurant that we had visited earlier for tapas, and sat around a large table. Others that we had met on the Camino came to join us for dinner. The plates were large, and the food was incredible. I ordered octopus, and was pleasantly surprised. Paisley ordered a mixed salad that looked like it could be in a magazine. Neither of us cleaned our plates, but the wine was too delicious to save.
+                                <br><br>
+                                We got back into the hostel around midnight and are packing to leave early tomorrow. Both of us are happy about experiencing such a lovely city with such lovely people and for the new phase of the Camino that is beginning.
+                                <br><br>
+                            </div>  
+                        </div>
+                    </div>
+
+                    <!-- Reliegos -->
+                    <div class="row">
+                        <div id="day1" class="days">
+                            <div id="location">
+                                Reliegos, Day 23
+                            </div>
+                            <div id="pictures">
+                                <a href=""><img id="photo" class="dinner img img-fluid img-responsive" src="../images/day-photos/day-23/lunch-break.jpg" title="Which way is it?"/></a>
+                                <!-- <a href="https://imgur.com/5V3KUJj"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/5V3KUJj.jpg" title="source: imgur.com" /></a>
+                                <a href="https://imgur.com/T0XU9aG"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/T0XU9aG.jpg" title="source: imgur.com" /></a> -->
+                                <a href="./photos.html"><span id="pic-desc">Check out all of the other photos in our album!</span></a>
+                            </div>
+                            <div id="notes">                                                                    
+                                Today was long, flat and next to the road. We left the municipal albergue at around 6 am, and set off into the cool morning. To be honest there is not much else to write about the walk. It was long, I can remember that much, but if you asked me about any certain point of the walk I would not be able to remember. It all blends together. It was sort of like when you drive down the interstate, and suddenly realize you are at your exit. You don’t remember much about the time in between when you left and when you arrived, because you got lost in your thoughts or music. Yet, each time you came out of your thoughts or a song changed you think to yourself “how am I not there yet? This is taking forever.” Anyways, that is how today felt. Once we arrived to the small town of Reliegos, we got to the alburgue and settled in. 
+                                <br><br>
+                                It is Sunday, and on Sunday everything shuts down. This is really how it should be, however it can make it difficult to find food. We wound up at a small bar along with everyone else. We spent the evening talking to a young Hungarian woman, of whom we had met a few nights back. Turns out she had worked in Denver, and we had plenty of questions we needed her to answer. In all, we are very excited to get León tomorrow. 
+                                <br><br>
+                            </div>  
+                        </div>
+                    </div>
+
+                    <!-- Sahagun -->
+                    <div class="row">
+                        <div id="day1" class="days">
+                            <div id="location">
+                                Sahagun, Day 22
+                            </div>
+                            <div id="pictures">
+                                <a href=""><img id="photo" class="dinner img img-fluid img-responsive" src="../images/day-photos/day-22/entrance.jpg" title="Which way is it?"/></a>
+                                <!-- <a href="https://imgur.com/5V3KUJj"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/5V3KUJj.jpg" title="source: imgur.com" /></a>
+                                <a href="https://imgur.com/T0XU9aG"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/T0XU9aG.jpg" title="source: imgur.com" /></a> -->
+                                <a href="./photos.html"><span id="pic-desc">Check out all of the other photos in our album!</span></a>
+                            </div>
+                            <div id="notes">                                    
+                                Today was a much shorter day, yay! We slept in and had breakfast at the cafe downstairs. As we looked at the map for the day ahead, we were pleasantly surprised by the number of towns we got to walk through on our way. Don’t get me wrong, it can be nice to get away from the towns and people, but after a nearly 20 km stretch of corn fields the day before, we were excited with the idea of frequent bathroom stops and more food options. 
+                                <br><br>
+                                We reached the town of Sahagun before one o’clock and decided to stay in the municipal albergue for the evening. We set our packs down and went to find some lunch. As we walked through the streets I felt as though I could almost feel my eyes shutting. My allergies had become more and more pronounced in the past few days. This was something I did not even think to plan for. In the past few days, however, all of the farmers have been cutting their crops and little balls of fluff ran through the air making it look as though it could be snowing. Luckily, we ran into our uno playing friends from the night before, and as we discussed the day, I had mentioned how bad my allergies are. One of the guys said that he brought allergy medication but didn’t seem to need it. Hallelujah!! I now have a much less runny nose and no itchy eyes. As, my twin, Mallory would say, it was trail magic. 
+                                <br><br>                                                                    
+                            </div>  
+                        </div>
+                    </div>
+    
+                    <!-- Calzadilla de la Cueza -->
+                    <div class="row">
+                        <div id="day1" class="days">
+                            <div id="location">
+                                Calzadilla de la Cueza, Day 21
+                            </div>
+                            <div id="pictures">
+                                <a href=""><img id="photo" class="dinner img img-fluid img-responsive" src="../images/day-photos/day-21/two-signs.jpg" title="Which way is it?"/></a>
+                                <!-- <a href="https://imgur.com/5V3KUJj"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/5V3KUJj.jpg" title="source: imgur.com" /></a>
+                                <a href="https://imgur.com/T0XU9aG"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/T0XU9aG.jpg" title="source: imgur.com" /></a> -->
+                                <a href="./photos.html"><span id="pic-desc">Check out all of the other photos in our album!</span></a>
+                            </div>
+                            <div id="notes">                                    
+                                    What a day this was! We woke up undecided on our final destination for the day, and so we agreed to see how we felt once we reached the town of <i>Carrion de los Condes</i> (about a 20 km walk).
+                                    <br><br>
+                                    We arrived to <i>Carrion de los Condes</i> around 11 am, and just did not know what to do with ourselves. We sat down for some lunch and decided that we felt we could walk further. The only problem was that the next town was a hearty 18 km further. Still, we felt up to the challenge. We set off and although we knew our feet may regret the decision tomorrow, we were determined to make it.
+                                    <br><br>
+                                    Although both Alaa and I had brought headphones on the trip, we had not used them while walking up to this point. Most of the time had been spent talking, meeting others, or just thinking. I hadn’t thought of using them until this stretch. The 18 km consisted solely of wheat fields and was so so flat. This was a time of need if any.
+                                    <br><br>
+                                    We got to where we only had 6 km left, but we wished we were already there. Then, we saw a group of three hikers that we had been passing and staying with off and on for most of our trip. Up to this point, we have failed to write about this particular group, due to our fear of jinxing it. We think they may just be our hiking soulmates. Although we never plan our days with them, we always end up in the same town at night. The group consists of a younger guy and girl and then an older woman. They are all Korean and do not speak much English. We started noticing them around day 5 or 6. We kept track of when we saw them after that, but it wasn’t until we introduced ourselves to them on day 12 that we got to know their names. Ever since then, I love passing them or being passed by them on the trail because they get very excited and wave. Anyways, all of this is to say we had given up all hope and were hot and tired, until we saw them up ahead taking a break. We waved as we passed, and when they promptly passed us, they said “Almost there” and gave us the thumbs up. I thought, yes, yes we are almost there!! 
+                                    <br><br>
+                                    Upon arrival, it felt like we had stumbled into an oasis. The alburgue we stayed at had a swimming pool in the back and so we promptly showered and then went to soak our feet and be still. We met a fun group who we joined for dinner and spent the rest of the night playing uno with. 
+                                    <br><br>                                    
+                            </div>  
+                        </div>
+                    </div>
+    
+
+                    <!-- Fromista -->
+                    <div class="row">
+                        <div id="day1" class="days">
+                            <div id="location">
+                                Fromista, Day 20
+                            </div>
+                            <div id="pictures">
+                                <a href=""><img id="photo" class="dinner img img-fluid img-responsive" src="../images/day-photos/day-20/fromista-sign.jpg" title="Paisley at Fromista sign"/></a>
+                                <!-- <a href="https://imgur.com/5V3KUJj"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/5V3KUJj.jpg" title="source: imgur.com" /></a>
+                                <a href="https://imgur.com/T0XU9aG"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/T0XU9aG.jpg" title="source: imgur.com" /></a> -->
+                                <a href="./photos.html"><span id="pic-desc">Check out all of the other photos in our album!</span></a>
+                            </div>
+                            <div id="notes">                                    
+                                    We started the day off a little bit later than normal because we decided to join our bunkmates for breakfast, and sit down for a hearty meal of jam and toast. The coffee provided was not very strong, but much appreciated. We packed our bags and began our first and only steep climb for the day.
+                                    <br><br>
+                                    It was sunny and bright without a cloud in the sky, but the air was cool on our sunburnt skin. We got to the top of a hill as we climbed out of Castrojeriz and were rewarded with a beautiful view of what we had hiked the previous day.  
+                                    <br><br> 
+                                    The rest of the hike was very flat, and rocky. We passed and were passed by people we had seen a few days before, and said “hello and happy trails” to those we haven’t met yet. 
+                                    <br><br>
+                                    The day went on forever. We walked by a river for the last 10 km, but could not find a decent entry point, or any spot to dip our sore feet in. 
+                                    <br><br>
+                                    We walked into town during the mid afternoon and went straight to the albergue to rest. We then visited a grocery store for some snacks and breakfast items for the following day. On the way home we stopped for dinner which consisted of the Queen’s Snack and a very ordinary looking hamburger. We bought a bottle of wine and enjoyed every drop of it. Something about the wine here is extraordinary. 
+                                    <br><br>
+                                    We went back to the albergue to prepare for bed and met two Italian gentlemen who looked like they had quite a rough day. They were in the bunks next to us. They said that they had started only a week before, and were planning on finishing it next week, which is absolutely ludacris. 
+                                    <br><br>
+                                    Humbled by our Italian friends, we decided to turn in for the night in preparation for a long day tomorrow.
+                                    <br><br>                                    
+                            </div>  
+                        </div>
+                    </div>
+    
+                    <!-- Castrojeriz -->
+                    <div class="row">
+                        <div id="day1" class="days">
+                            <div id="location">
+                                Castrojeriz, Day 19
+                            </div>
+                            <div id="pictures">
+                                <a href=""><img id="photo" class="dinner img img-fluid img-responsive" src="../images/day-photos/day-19/dinner.jpg" title="Dinner"/></a>
+                                <!-- <a href="https://imgur.com/5V3KUJj"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/5V3KUJj.jpg" title="source: imgur.com" /></a>
+                                <a href="https://imgur.com/T0XU9aG"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/T0XU9aG.jpg" title="source: imgur.com" /></a> -->
+                                <a href="./photos.html"><span id="pic-desc">Check out all of the other photos in our album!</span></a>
+                            </div>
+                            <div id="notes">                                    
+                                The morning started off beautifully. We woke before sunrise and put on our packs and socks and shoes, and marched toward Castrojeriz. In the beginning, the path was not hard, and not soft. The air outside was cool, but not cold. It was easy to walk, and that’s all we had planned for the day, so that’s what we did. 
+                                <br><br>
+                                Sunrise was gorgeous, as usual. We passed and were passed by a few folks during the early morning hours, before everyone had settled into their pace for the day. 
+                                <br><br>
+                                The first town we passed through was a 10 km walk from where we woke up. Unfortunately no cafe was open to allow us coffee and breakfast, so we found a spot to sit near the road, and ate some fruit we bought in Burgos.
+                                <br><br>
+                                The pathway had become rocky. Imagine a sidewalk with boulders sticking out of the pavement. This is what we were walking on for the next 12 km. By the time we limped into the restaurant for lunch, my feet had swollen to the size of watermelons. I say this completely honestly. 
+                                <br><br>
+                                Paisley ordered an apple-tart to accompany her tortilla, and I ordered a serrano sandwich. The serrano ham here is incredible, so the least I can do is order it at every opportunity and hope to get tired of it so that I don’t long for it back in the States. 
+                                <br><br>
+                                Out came the apple tart and my salami sandwich. I was livid. Why the hell would I want a salami sandwich? Well, your guess is as good as mine. It was too late, though, so I gobbled it down and chased the clumps of bread and salami with steaming espresso and a couple of tablets of ibuprofen. To my dismay, the sandwich was delicious.
+                                <br><br>
+                                After three espressos and 800 mg of ibuprofen, we were on our way. The trail hadn’t gotten any less rough, but we were both feeling a bit better after having eaten. The rest of the trail was flat and eventually ended on a highway for the last few kilometers. We saw a big old building that likely has religious significance. 
+                                <br><br>
+                                We strolled through Castrojeriz and found our albergue. We paid and went inside to set our things down, shower, and then head to the courtyard to read in the sun.
+                                <br><br>
+                                Later that evening, after a wonderful dinner with the others in our alburgue, we were treated to a tour of an old underground wine cellar right underneath where we were sleeping! The gentleman that gave us the tour (the co-owner of the albergue) was very gregarious and had us all singing songs together by the end. It was incredible, mainly because we were staying with very few people who spoke English. French and German were among the most common, yet our host had the talent to bring us all together and make us feel like we knew each other even when we couldn’t talk to one another. In all, this was probably one of our favorite places that we have stayed so far! 
+                                <br><br>                                    
+                            </div>  
+                        </div>
+                    </div>
+
+                    <!-- Tardajos -->
+                    <div class="row">
+                            <div id="day1" class="days">
+                                <div id="location">
+                                    Tardajos, Day 18
+                                </div>
+                                <div id="pictures">
+                                    <a href=""><img id="photo" class="dinner img img-fluid img-responsive" src="../images/day-photos/day-18/sign_p.jpg" title="Strutting along"/></a>
+                                    <!-- <a href="https://imgur.com/5V3KUJj"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/5V3KUJj.jpg" title="source: imgur.com" /></a>
+                                    <a href="https://imgur.com/T0XU9aG"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/T0XU9aG.jpg" title="source: imgur.com" /></a> -->
+                                    <a href="./photos.html"><span id="pic-desc">Check out all of the other photos in our album!</span></a>
+                                </div>
+                                <div id="notes">                                    
+                                    We slept until a ripe 6:30 this morning as we had stayed at a quiet alburgue. When we awoke, all but one other person had left. It was nice to “sleep in” for a morning and get some good rest.
+                                    <br> <br>
+                                    We set off to Burgos, a bigger town in Spain. Most of the way there was industrial and on cement, but nonetheless we were excited to be in “the big city”. We stopped at McDonalds around 10:00 AM for some much needed breakfast. Turns out, Mickie Dee’s isn’t too different in Spain. After several McPollos we continued further and finally began to enter the downtown of Burgos.
+                                    <br><br>
+                                    We made a few much needed stops for supplies. We went to a grocery store for snacks, toothpaste, soap, and sunscreen. A pharmacy for blister tape and ibuprofen. An electronic store for a new charger for Alaa, yay! And finally a jewelry store so that I could get earrings in order to keep my holes from closing up. All in all, a successful trip! We ordered some sandwiches to go, and set off for our final destination of the day. 
+                                    <br><br>
+                                    We ended in a town called Tardajos, about 12 km outside of Burgos. The alburgue that we are staying in is newer (the owner said it has been open for 3 years) and very nice. We are resting in the shade and getting ready for the longer day ahead, tomorrow. 
+                                    <br><br>                                    
+                                </div>  
+                            </div>
+                        </div>
+    
+                    <!-- Cardenuela Riopico -->
+                    <div class="row">
+                        <div id="day1" class="days">
+                            <div id="location">
+                                Carde&#241;uela Riopico, Day 17
+                            </div>
+                            <div id="pictures">
+                                <a href=""><img id="photo" class="dinner img img-fluid img-responsive" src="../images/day-photos/day-17/rest-pano.jpg" title="resting on a hill"/></a>
+                                <!-- <a href="https://imgur.com/5V3KUJj"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/5V3KUJj.jpg" title="source: imgur.com" /></a>
+                                <a href="https://imgur.com/T0XU9aG"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/T0XU9aG.jpg" title="source: imgur.com" /></a> -->
+                                <a href="./photos.html"><span id="pic-desc">Check out all of the other photos in our album!</span></a>
+                            </div>
+                            <div id="notes">
+                                We needed no alarm this morning. I awoke to the sound of early risers rustling through their bags. It was 5:00, forty-five minutes earlier than my watch was set to alarm, but there was no point in trying to go back to sleep. 
+                                <br><br>
+                                I noticed Paisley had started moving around on the bunk above me, so I figured we should get moving.
+                                <br><br>
+                                We walked into a cold and dark morning, up the hill outside of our hostel, and through an enchanting entrance to the woods-- one that looked to be out of a fairytale. 
+                                <br><br>
+                                Walking through the woods was a nice change of pace to start the day with. It was dark for the first thirty minutes or so, but soon after, the sky behind us ignited. A molten horizon lit the hills and valleys below us and was shimmering through the fog and morning dew. 
+                                <br><br>
+                                Eventually we were passed by others and decided to take a water break. The views were not necessarily breathtaking, but sure pretty to look at. 
+                                <br><br>
+                                We arrived at the next town after three hours and found a seat in a back room. It was a cozy place that smelled like coffee. I ordered an espresso and Paisley ordered a Cafe con leche. We ate and rested our feet. 
+                                <br><br>
+                                We continued to walk through the forest and eventually arrived to a small town whose name I've forgotten. From there until we reached where we are staying, we walked on streets beside passing cars and trucks. This wasn't the most glamorous day along the Camino, but the weather has been spectacular. 
+                                <br><br>
+                                We reached our albergue which has a pool that is not heated or otherwise maintained, it seems. We soaked our feet for about an hour in the cold water and then walked around the village. 
+                                <br><br>
+                                We are waiting for dinner, and are excited about passing through a bigger city tomorrow. I lost my phone charging cable and I hope to find another one. 
+                                <br><br>
+                                We are trying to upload more photos to our album, but have had terrible luck with wifi. 
+                                <br><br>
+                                As I am writing this Paisley is planning how to orient the photos for the day, and we are sipping on Estrella Damm, looking out toward grassy hills that remind us of home. 
+                                <br><br>                                    
+                            </div>  
+                        </div>
+                    </div>
+
+                    <!-- Day 11 Villafranca Montes de Oca -->
+                    <div class="row">
+                        <div id="day1" class="days">
+                            <div id="location">
+                                Villafranca Montes de Oca, Day 16
+                            </div>
+                            <div id="pictures">
+                                <a href=""><img id="photo" class="dinner img img-fluid img-responsive" src="../images/day-photos/day-16/city_view.jpg" title="a city view"/></a>
+                                <!-- <a href="https://imgur.com/5V3KUJj"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/5V3KUJj.jpg" title="source: imgur.com" /></a>
+                                <a href="https://imgur.com/T0XU9aG"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/T0XU9aG.jpg" title="source: imgur.com" /></a> -->
+                                <a href="./photos.html"><span id="pic-desc">Check out all of the other photos in our album!</span></a>
+                            </div>
+                            <div id="notes">
+                                It was tough to say farewell to the lovely little albergue we stayed in last night. Dinner was absolutely delicious and we had the place all to ourselves. We took the extra blankets from the other bunks to stay warm, but did not need to, as the room was very comfortable. 
+                                <br><br>
+                                Our dinner had four courses last night. The first was a delightful little bowl of tomato paste, vinegar, olive oil, and something else I’m sure. It paired well with the bread and wine that we had available to us. Next we were served a bowl of vegetable soup with carrots, rice, and beans, perhaps. It was salty, warm, and delicious. The third plate came with a stew of potatoes and beef. Both parts would melt in your mouth, and warmed me up from the inside. At this point I was full, but was having a hard time stopping. Dessert finally came, and I was served a bowl of fresh fruit, and Paisley had some vanilla pudding with a few dashes of cinnamon. 
+                                <br><br>
+                                We slept in a quiet room and felt well rested this morning. 
+                                <br><br>
+                                We left at 7 am, and decided we would stop at the first place open for breakfast and coffee. We made it about 10 km to Belorado, and walked into a very yellow diner/albergue, with automatic sliding glass doors. I ordered a ham sandwich, and Paisley ordered a tortilla and ham sandwich, which consisted of eggs, potatoes, and ham on a baguette. 
+                                <br><br>
+                                We found out that the woman serving us has visited Oregon, and spoke perfect english. She told us about the American adventures she has been on, and how she doesn’t understand why tourists so often go to see things and places that are boring. 
+                                <br><br>
+                                An example of this was about Hollywood. She mentioned that her dad had taken her to the States and insisted they see Hollywood. She said that this was a terrible idea that lasted a few minutes before they both got bored and tried to find something else to do. She was drawing a comparison between the Camino and these other tourist-heavy spots. 
+                                <br><br>
+                                She told us about a few beautiful locations that “would be a shame not to see” while we are here, and wrote them down on a piece of paper. 
+                                <br><br>
+                                We walked away from the conversation a bit confused, but very glad to have met her. Now we have an idea of what to do with the few extra days we have after the Camino, while we are still in Spain. 
+                                <br><br>
+                                We continued to walk until lunch, and then stopped to rest our feet. We had considered going 34 km today, to make it to Burgos in two days, but decided against it. I think we will focus a bit more on enjoying the journey instead trying so hard to reach the final destination.
+                                <br><br>
+                                We are in an albergue in <i>Villafranca Montes de Oca</i>, and are sitting in the grass in the backyard, enjoying the sun. Paisley is trying to play with a dog that was minding his own business, smelling grass and doing other dog things. He is now glaring at me.
+                                <br><br>
+                                We don’t know where we will go to dinner, but it is sure not going to be as tasty as last night’s meal. We will try to get rest tonight so that we can, again, enjoy another beautiful day in the Spanish Countryside. 
+                                <br><br>
+                            </div>  
+                        </div>
+                    </div>
+
+                    <!-- Day 10 Castildelgado -->
+                    <div class="row">
+                        <div id="day1" class="days">
+                            <div id="location">
+                                Castildelgado, Day 15
+                            </div>
+                            <div id="pictures">
+                                <a href=""><img id="photo" class="dinner img img-fluid img-responsive" src="../images/day-photos/day-15/IMG_0398.jpg" title="Dinner"/></a>
+                                <!-- <a href="https://imgur.com/5V3KUJj"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/5V3KUJj.jpg" title="source: imgur.com" /></a>
+                                <a href="https://imgur.com/T0XU9aG"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/T0XU9aG.jpg" title="source: imgur.com" /></a> -->
+                                <a href="./photos.html"><span id="pic-desc">Check out all of the other photos in our album!</span></a>
+                            </div>
+                            <div id="notes">
+                                We woke up to a much quieter room this morning. We slowly gathered our belongings and prepared for the rain to come. The morning mist that welcomed our faces as we began the day’s trek was reminiscent of Oregon. We walked for about 7 km, before stumbling onto a golf course. We went into the golf shop and had a much needed warm breakfast. 
+                                <br><br>
+                                After fueling up with some caffeine, we headed to the next big town <i>Santo Domingo de la Calzada</i>. Upon arriving here, we found an adventure shop and stopped to take a look. Alaa needed some new socks (as his currently has a few holes) and I was in need of some gloves to keep my hands warm on these chillier days, something I had failed to prepare for. Alaa also picked up some trekking poles, for his knees were “...dear god, about to explode” on some of the steeper downhill portions. Leaving the store, we felt like new hikers! 
+                                <br><br>
+                                Around 3 pm, we arrived at our final destination for the day: <i>Castildelgado</i>. There is only one albergue in this town, and we were anxious to see if we had picked a good place to stay. As we walked in, a welcoming older couple helped us. Upon going upstairs, we determined that we have the place to ourselves! Such a rare thing on the Camino... The place is beautiful, and apparently it was a historic house that they had restored. It has the charm of an old house, but the comforts of a new one. 
+                                <br><br>
+                                We are sitting in a cozy living room that is filled with the scent of a homemade meal awaiting us. I am so sorry that we have to leave in the morning.
+                                <br><br>
+                            </div>  
+                        </div>
+                    </div>
+
+                    <!-- Day 9 Azofra -->
+                    <div class="row">
+                        <div id="day1" class="days">
+                            <div id="location">
+                                Azofra, Day 14
+                            </div>
+                            <div id="pictures">
+                                <a href=""><img id="photo" class="dinner img img-fluid img-responsive" src="../images/day-photos/day-14/poppy.jpg" title="Dinner"/></a>
+                                <!-- <a href="https://imgur.com/5V3KUJj"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/5V3KUJj.jpg" title="source: imgur.com" /></a>
+                                <a href="https://imgur.com/T0XU9aG"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/T0XU9aG.jpg" title="source: imgur.com" /></a> -->
+                                <a href="./photos.html"><span id="pic-desc">Check out all of the other photos in our album!</span></a>
+                            </div>
+                            <div id="notes">
+                                I awoke multiple times in the early morning, for some reason thinking it was time to go. Then of course, as it often goes, when the multitude of alarms went off, I was not quite ready to get out of bed. None the less, we packed up and got on our way.
+                                <br><br>
+                                The morning sky was dark and dreary. The forecast called for rain in the afternoon, but it looked as though rain would start to pour at any moment. Our legs were stiff and feet swollen. It felt as though my feet were about to explode, leaving me with two nubs and an over-sized backpack.
+                                <br><br>
+                                We managed to make it to a small town roughly 6 km away from the start. We sat and drank coffee mentally preparing for the day ahead. We saw a few folks from the start that we hadn’t seen for a few days. We finished our drinks and began to walk.
+                                <br><br>
+                                The next town was about 9 km from our coffee break. Unfortunately the path to town was very well paved, or otherwise had enormous boulders sticking halfway out of the ground. This proved to be a problem for our feet.
+                                <br><br>
+                                We began to get irritated with the pain that had lasted since the night before, and decided to skip a rest stop. We trucked on through the next town, which was also nicely paved, and continued on.
+                                <br><br>
+                                There were 5 km left before we reached our destination in <i>Azofra</i>. With 2 km to go, we realized we should have rested and maybe bought more coffee, because the amount of pain we were both in was almost unbearable. Even so, we managed to reach town and took a small nap as soon as we arrived.
+                                <br><br>
+                                Here’s to hoping tomorrow doesn’t hurt so bad.
+                                <br><br>                                
+                            </div>  
+                        </div>
+                    </div>
+
+                    <!-- Day 8 Navarette -->
+                    <div class="row">
+                        <div id="day1" class="days">
+                            <div id="location">
+                                Navarette, Day 13
+                            </div>
+                            <div id="pictures">
+                                <a href=""><img id="photo" class="dinner img img-fluid img-responsive" src="../images/day-photos/day-13/burgers.jpg" title="Dinner"/></a>
+                                <!-- <a href="https://imgur.com/5V3KUJj"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/5V3KUJj.jpg" title="source: imgur.com" /></a>
+                                <a href="https://imgur.com/T0XU9aG"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/T0XU9aG.jpg" title="source: imgur.com" /></a> -->
+                                <a href="./photos.html"><span id="pic-desc">Check out all of the other photos in our album!</span></a>
+                            </div>
+                            <div id="notes">
+                                May 17th, what a great day! Speaking from an unbiased opinion of course. We began our walk in the morning twilight, feeling ready for the longer day ahead of us (we planned to walk 33km to Navarette). We were almost immediately greeted with a cardio workout to get the blood pumping. We crested and dipped over a long series of steep, yet short hills. We found a bench to eat some breakfast, which consisted of smoothie packets and muffins! An interesting combo, but it go the job done.
+                                <br><br>
+                                By mid-day we found ourselves in a bigger town, called Logro&ntilde;o. It felt just as busy as the last big town we had been in, Pamplona, but it was a beautiful town centered along a river. We stopped for espressos and a bite to eat and I witnessed one lucky man with the Jackpot on one of those video lottery machines.
+                                <br><br>
+                                As we carried on, we wandered through a green, scenic park. The cement seemed to last forever, and our feet grew tired. Finally, we reached an albergue in the town of Navarette, and checked in. The man noticed it was my birthday on my passport and thus a chorus of happy birthday ensued from everyone in the lobby.
+                                <br><br>
+                                We decided to have dinner out, seeing as though the alburgue was serving a meal infested with lactose. We wandered the streets, but almost nothing was open yet. Most people seemed to still be on their siesta. We settled on a small bar, and sipped beer while a group of around 6-8 older women played cards (they really knew how to talk some smack!). We amused ourselves by switching between listening to the group of card players, and watching a screen showing music videos to many popular American songs (enter Taylor Swift and Kelly Clarkson). Most music videos are so weird when you watch them the entire way through. For our next stop, we went to a restaurant that the bartender suggested. We ordered burgers and were surprised when the cook walked out with two loaves of french bread, each with four patties and toppings. Talk about a burger! We went to bed that night full and content.
+                                <br><br>
+                            </div>  
+                        </div>
+                    </div>
+
+                    <!-- Day 7 Torres del Rio -->
+                    <div class="row">
+                        <div id="day1" class="days">
+                            <div id="location">
+                                Torres del Rio, Day 12
+                            </div>
+                            <div id="pictures">
+                                <a href=""><img id="photo" class="dinner img img-fluid img-responsive" src="../images/day-photos/day-12/sunrise.jpg" title="Dinner"/></a>
+                                <!-- <a href="https://imgur.com/5V3KUJj"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/5V3KUJj.jpg" title="source: imgur.com" /></a>
+                                <a href="https://imgur.com/T0XU9aG"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/T0XU9aG.jpg" title="source: imgur.com" /></a> -->
+                                <a href="./photos.html"><span id="pic-desc">Check out all of the other photos in our album!</span></a>
+                            </div>
+                            <div id="notes">
+                                This morning was rough. Beginning our walk, my legs felt as they had at the beginning of day three. We walked along a gorgeous gravel path, tired and sore from the day before. We walked 8 kilometers to <i>Los Arcos</i> and stopped for coffee. We ran into someone we had met a few nights before, in <i>Cizur Menor</i>, and drank our coffee together and talked about the horrible hills and beautiful landscapes we have seen in the past couple of days. 
+                                <br><br>
+                                We all decided to walk to <i>Torres Del Rio</i>, where Paisley and I are staying tonight. We had great conversation about our futures, learning languages, work-life balance, and the third industrial revolution. The time to our albergue flew by, and we made it half an hour before check in, at about 11:30 am.
+                                <br><br>
+                                We checked in, changed, washed our clothes, and grabbed lunch. We had ham and cheese sandwiches and have been working on the blog.
+                                <br><br>
+                                Dinner is at 7 pm, and there is a pool here, so we will probably take a break and go swim in a bit. 
+                                <br><br>
+                                Tomorrow we are planning 33 km to Navarette, so rest will be important. 
+                                <br><br>
+                            </div>  
+                        </div>
+                    </div>
+
+
+                    <!-- Day 6 Villa Mayor de Monjardin -->
+                    <div class="row">
+                        <div id="day1" class="days">
+                            <div id="location">
+                                Villamayor de Monjardin, Day 11
+                            </div>
+                            <div id="pictures">
+                                <a href=""><img id="photo" class="dinner img img-fluid img-responsive" src="../images/day-photos/day-11/wine-fountain.jpg" title="Dinner"/></a>
+                                <!-- <a href="https://imgur.com/5V3KUJj"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/5V3KUJj.jpg" title="source: imgur.com" /></a>
+                                <a href="https://imgur.com/T0XU9aG"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/T0XU9aG.jpg" title="source: imgur.com" /></a> -->
+                                <a href="./photos.html"><span id="pic-desc">Check out all of the other photos in our album!</span></a>
+                            </div>
+                            <div id="notes">
+                                We woke up at 5:30 in our shoddy bunks in <i>Refugio Pellegrinos Reparadores</i> and stuffed our bags with our bed sheets and yesterday’s clothes. We walked out onto the dimly lit streets of <i>Puente la Reina</i> and made our way towards <i>Estella</i>. We had no idea Mt. Everest could be found in Spain, and that we would reach its summit before dawn. 
+                                <br><br>
+                                We walked through a couple of small towns looking for an open albergue to stop and grab coffee, but had a hard time finding anything open. In the third town, one that was built on the side of a mountain and had streets at a 60% grade, we found a small albergue with backpacks lining the ground in the alley outside of it. We walked in to rest our feet for a moment and grab coffee for the day ahead. From the sweat on my back I could tell that today would be very hot.
+                                <br><br>
+                                We made it to <i>Estella</i> just before noon, the sun was high in the sky and intensely radiating onto us. We stopped for lunch, got a few sandwiches to go, and quickly left. At this point we had 7 kilometers of steep incline left before we would be at our final destination for the day. 
+                                <br><br>
+                                After we had made our way out of the city, the path opened up to show a stunning panorama of rolling hills and in the distance, cliffs that seem to mark the edge of the world. We passed a fountain of wine that was probably in the wine museum that we decided not to enter, and instead made a point to find some shade, hydrate, and eat our sandwiches from earlier. 
+                                <br><br>
+                                The last 3 kilometers were incredibly difficult. We stumbled through town and found our albergue. We arrived at 2 pm, and had to wait an hour to check-in. Although there was a line of 20 others waiting in the shade, we were assured that there would be room for us inside. 
+                                <br><br>
+                                Our room was centrally located in the building with two doors on opposite walls. This served as a great shortcut for those staying in other rooms to walk through to the bathroom. 
+                                <br><br>
+                                Dinner was great. We had jambalaya, and although I can’t say what was in it, I recognized a few vegetables. Dessert was brownies with a cinnamon Cool-Whip. Paisley is telling me that it was delicious. 
+                                <br><br>
+                                We are tired and ready for a lighter day tomorrow. We traveled just over 32 kilometers today, and are planning on a cool 20 km tomorrow.
+                                <br><br>
+
+                                
+                            </div>  
+                        </div>
+                    </div>
+
+                    <!-- Day 5 Puente La Reina -->
+                    <div class="row">
+                        <div id="day1" class="days">
+                            <div id="location">
+                                Puente La Reina, Day 10
+                            </div>
+                            <div id="pictures">
+                                <a href=""><img id="photo" class="dinner img img-fluid img-responsive" src="../images/day-photos/day-10/bridge.jpg" title="Dinner"/></a>
+                                <!-- <a href="https://imgur.com/5V3KUJj"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/5V3KUJj.jpg" title="source: imgur.com" /></a>
+                                <a href="https://imgur.com/T0XU9aG"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/T0XU9aG.jpg" title="source: imgur.com" /></a> -->
+                                <a href="./photos.html"><span id="pic-desc">Check out all of the other photos in our album!</span></a>
+                            </div>
+                            <div id="notes">
+                                Today was short. We woke up early from our beds in Cizur Menor, and began to walk before sunrise. This was very peaceful, and something that we will definitely do again. One person put it so well: “...the air is buttery in the morning.” That honestly sounds like a bad time, but I understand the connection with the color of the surrounding world at that time of day. We walked fast, and although blisters hurt, we made good time. We arrived at the albergue at 11:30 am, thirty minutes before they opened for the day. We waited in the shade and rubbed our sore feet until the doors swung open and the man permitted us to check in.
+                                <br><br>
+                                After a shower, washing clothes, and some organizing, we worked to update this site with our adventures-- sorry for the delay. 
+                                <br><br>
+                                We walked around town and stumbled across some dairy-free Ben and Jerry’s! Who would have thought that this would be the greatest day ever?
+                                <br><br>
+                                We walked further to sit beside a very old bridge and enjoyed our ice cream in the sun, watching tourists take our photographs. They could have been trying to capture the bridge, but it looked as though they were aiming their cameras right at us.
+                                <br><br>
+                                In this moment it became very easy to appreciate what has brought us on this journey, and how grateful we are to be together on the other side of the world.
+                                <br><br>
+                                We walked to the supermarket to pick up some food for tomorrow, and found strawberries, apples, lemon pound cake, nuts, and bananas. The strawberries were the first to go.
+                                <br><br>
+                                We dropped off our groceries and coats only to be stopped by herd of sheep. I have never seen anything like it. It was beautiful. 
+                                <br><br>
+                                We walked to grab beers and dinner in the old town and sat and people watched until dark. We ate eggs and bacon, and enjoyed it with a pint of Estrella. The food was delicious, and a nice change from the large portions of bread we have been eating. 
+                                <br><br>
+                                We returned to the albergue, and prepared for the day ahead.
+                                <br><br>
+                                 
+                            </div>  
+                        </div>
+                    </div>
+
 
                     <!-- Day 4 Cizur Menor -->
                     <div class="row">
@@ -327,14 +1229,14 @@
                         </div>
                     </div>
 
-                    <!-- Day 2 St. Jean Pied de Port -->
+                    <!-- Day 2 Roncesvalles -->
                     <div class="row">
                         <div id="day1" class="days">
                             <div id="location">
                                 Roncesvalles, Day 7
                             </div>
                             <div id="pictures">
-                                <a href=""><img id="photo" class="img img-fluid img-responsive" src="../images/day-photos/day-7/paisley-poncho.jpg" title="Marked paths" /></a>
+                                <a href=""><img id="photo" class="img img-fluid img-responsive" src="../images/day-photos/day-7/start-selfie.jpg" title="Marked paths" /></a>
                                 <!-- <a href="https://imgur.com/5V3KUJj"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/5V3KUJj.jpg" title="source: imgur.com" /></a>
                                 <a href="https://imgur.com/T0XU9aG"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/T0XU9aG.jpg" title="source: imgur.com" /></a> -->
                                 <a href="./photos.html"><span id="pic-desc">Check out all of the other photos in our album!</span></a>
@@ -342,8 +1244,8 @@
                             <div id="notes">
                                 Wow, a day as physically demanding as was today makes me wish I was still cooped up on an airplane. 
                                 <br><br>
-                                There was an air of excitement flowing through the street in St. Jean Pierre de Port, as everyone finished their breakfasts and took their first steps along their Camino. 
-                                The excitement was needed, as today would contain about 5000 feet of elevation, and a foggy, grey view of the Pyrannies. We walked all morning, burning through carbohydrates and adrenaline, through the sideways rain that falls in this part of the world. 
+                                There was an air of excitement flowing through the street in St. Jean Pied de Port, as everyone finished their breakfasts and took their first steps along their Camino. 
+                                The excitement was needed, as today would contain about 5000 feet of elevation, and a foggy, grey view of the Pyrannees. We walked all morning, burning through carbohydrates and adrenaline, through the sideways rain that falls in this part of the world. 
                                 <br><br>
                                 We stopped for lunch just after the sun had chased out some of the fog. A man had parked his van along the road we were walking and was selling homemade cheese, hard-boiled eggs, some candy bars, and an assortment of canned soft drinks. We had bread and tuna from the night before, so we sat near his van and decided to eat and watch others. The first view of the trip was incredible.
                                 <br><br>
@@ -374,7 +1276,7 @@
                                 <a href="./photos.html"><span id="pic-desc">Check out all of the other photos in our album!</span></a>
                             </div>
                             <div id="notes">
-                                Phew, what a long travel day it was! We spent the majority of the day on plane or bus and discovered that there are two types of stenches: the stench of being outside and hiking without showering, and the stench of sitting in closed areas with littMalahidele circulation all day. After today I think the latter of those two is worse. We woke up at 2am, to ensure that we would get to the airport in time for our 6am flight. Turns out no one else needs a Taxi at that hour (who knew?), and we were at the airport in approximately 20 minutes. Once arriving, we walked into a deserted airport and discovered that the airline desks don’t open until 2 hours before the flight, thus found ourselves with some more time on our hands. Traveling is tricky because you don’t want to miss your flight/bus/train, yet without knowing the area or procedures of the area well, I often found myself in the “hurry up and wait” mode.
+                                Phew, what a long travel day it was! We spent the majority of the day on plane or bus and discovered that there are two types of stenches: the stench of being outside and hiking without showering, and the stench of sitting in closed areas with little circulation all day. After today I think the latter of those two is worse. We woke up at 2am, to ensure that we would get to the airport in time for our 6am flight. Turns out no one else needs a Taxi at that hour (who knew?), and we were at the airport in approximately 20 minutes. Once arriving, we walked into a deserted airport and discovered that the airline desks don’t open until 2 hours before the flight, thus found ourselves with some more time on our hands. Traveling is tricky because you don’t want to miss your flight/bus/train, yet without knowing the area or procedures of the area well, I often found myself in the “hurry up and wait” mode.
                                 <br><br>
                                 Once in Pamplona, after a crazy sprint through the Frankfurt airport, we got a taxi to the Pamplona bus station. While we waited, we observed many other pilgrims (what they call people who walk the Camino) strolling in and it started to make the trip seem very real to us. 
                                 <br><br>
@@ -418,7 +1320,7 @@
                                 Malahide, Day 4
                             </div>
                             <div id="pictures">
-                                <a href=""><img id="photo" class="img img-fluid img-responsive" src="../images/day-photos/day-4/castle.gif" title="Standing in front of a castle" /></a>
+                                <a href=""><img id="photo" class="img img-fluid img-responsive" src="../images/day-photos/day-4/castle.jpg" title="Standing in front of a castle" /></a>
                                 <!-- <a href="https://imgur.com/5V3KUJj"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/5V3KUJj.jpg" title="source: imgur.com" /></a>
                                 <a href="https://imgur.com/T0XU9aG"><img id="photo" class="img img-fluid img-responsive" src="https://i.imgur.com/T0XU9aG.jpg" title="source: imgur.com" /></a> -->
                                 <a href="./photos.html"><span id="pic-desc">Check out all of the other photos in our album!</span></a>
@@ -515,36 +1417,7 @@
                             </div>
                         </div>
                     </div>
-
-
-                    <!-- day 1 -->
-                    <!-- <div id="day1" class="days">
-                        <div id="location">
-                            St. Jean Pied de Port
-                        </div>
-                        <div id="pictures">
-                            Coming Soon!
-                        </div>
-                        <div id="notes">
-                            Updates are pending.
-                        </div>
-                    </div> -->
-
-                        <!-- Days Template -->
-                    <div id="template" class="days">
-                        <div id="location">
-
-                        </div>
-                        <div id="pictures">
-
-                        </div>
-                        <div id="notes">
-
-                        </div>
-
-                    </div>
                     <!-- End Days Template -->
-
                 </div>      
             </div>
         </div>

@@ -68,7 +68,7 @@
 
                 <div id="top-mat" class="col-xs-6">
                     <span id="ap-desc" class="center-block">Alaa and Paisley will embark on a new journey across northern Spain. 
-                            There will be chaffing, there will be laughing, and there will be crying... how much of each is yet to be determined. 
+                            There will be chafing, there will be laughing, and there will be crying... how much of each is yet to be determined. 
                             They will be departing on May 4th out of Seattle, and they will fly into Dublin, Ireland.
                             Their secretary Corduroy will record happenings, thoughts, and more!
                     </span>
@@ -89,7 +89,7 @@
                     <div class="JournalWhole">
                         <div id="JournalIntro">
                             <h2>Journal</h2>
-                            <p id="journal-p"> Our goal is Flags in Galwayto record our thoughts and stories from each day throughout our trip.
+                            <p id="journal-p"> Our goal is to record our thoughts and stories from each day throughout our trip.
                                 Click on the links below to see where we hiked each day 
                                 and stay tuned as we update how they actually went!
                             </p>
@@ -132,7 +132,7 @@
                                 // mm = '06'
                                 // dd='08'
                                 
-                                var zoom    = 3;
+                                var zoom    = 8;
                                 var lat     = 43.163141;
                                 var long    = -1.23811;
                                 
@@ -196,28 +196,33 @@
                                         long = -2.2679632;
                                         break;
                                     case '0519':
-                                        lat = 42.4627195;
-                                        long = -2.4449852;
+                                        lat = 42.43;
+                                        long = -3.08;
                                         break;
                                     case '0520':
-                                        lat = 42.4167413;
-                                        long = -2.7294624;
+                                        // Villafranca Montes de Oca
+                                        lat = 42.3874;
+                                        long = -3.3093;
                                         break;
                                     case '0521':
-                                        lat = 42.4369439;
-                                        long = -2.9550619;
+                                        // Cardenuela Riopico
+                                        lat = 42.3590;
+                                        long = -3.5591;
                                         break;
                                     case '0522':
-                                        lat = 42.41956769999;
-                                        long = -3.1917747;
+                                        // Tardajos
+                                        lat = 42.3490;
+                                        long = -3.8159;
                                         break;
                                     case '0523':
-                                        lat = 42.3700787;
-                                        long = -3.4795035;
+                                        // Castrojeriz
+                                        lat = 42.2885;
+                                        long = -4.1424;
                                         break;
                                     case '0524':
-                                        lat = 42.3439925;
-                                        long = -3.696906;
+                                        // Fromista
+                                        lat = 42.2676;
+                                        long = -4.4053;
                                         break;
                                     case '0525':
                                         lat = 42.3439925;
@@ -232,28 +237,35 @@
                                         long = -4.3468794;
                                         break;
                                     case '0528':
-                                        lat = 42.3307302;
-                                        long = -4.6140481;
+                                        lat = 42.5987;
+                                        long = -5.5671;
                                         break;
                                     case '0511':
                                         lat = 40.8378518;
                                         long = -5.541386;
                                         break;
                                     case '0529':
-                                        lat = 42.4231911;
-                                        long = -5.219490299999;
+                                        lat = 42.4705;
+                                        long = -5.9099;
                                         break;
                                     case '0530':
-                                        lat = 42.5669462;
-                                        long = -5.495956;
-                                        break;
+                                        lat = 42.4549;
+                                        long = -6.0533;
+                                        break; 
                                     case '0531':
-                                        lat = 42.4833413;
-                                        long = -5.7293239;
+                                        lat = 42.4917;
+                                        long = -6.3429;
+                                        break;case '0530':
+                                        lat = 42.4549;
+                                        long = -6.0533;
+                                        break; 
+                                    case '0531':
+                                        lat = 42.4917;
+                                        long = -6.3429;
                                         break;
                                     case '0601':
-                                        lat = 42.4833413;
-                                        long = -5.7293239;
+                                        lat = 42.5500;
+                                        long = -6.5983;
                                         break;
                                     case '0602':
                                         lat = 42.4549303;
@@ -284,25 +296,24 @@
                                         long = -7.4536742;
                                         break;
                                     case '0609':
-                                        lat = 42.82497559999999;
-                                        long = -7.695852199999999;
+                                        lat = 42.8782;
+                                        long = -8.5448;
                                         break;
                                     case '0610':
-                                        lat = 42.9128344;
-                                        long = -8.024700500000002;
+                                        lat = 42.8782;
+                                        long = -8.5448;    
                                         break;
                                     case '0611':
-                                        lat = 42.9045519;
-                                        long = -8.3625168;
+                                        lat = 42.8782;
+                                        long = -8.5448;
                                         break;
                                     case '0612':
-                                        lat = 42.8782132;
-                                        long = -8.5448445;
-                                        break;
+                                        lat = 42.8782;  
+                                        long = -8.5448;break;
                                     default:
                                         console.log('cannot find date.');
-                                        lat = 53.42;
-                                        long = -6.27;
+                                        lat = 42.8782;
+                                        long = -8.5448;
                                 }
                                 // today = mm + '/' + dd + '/' + yyyy;
                                 document.write("As of: " + mm + "/" + dd + "/" + yyyy);
@@ -319,7 +330,8 @@
                                 var markers = new OpenLayers.Layer.Markers( "Markers" );
                                 map.addLayer(markers);
                                 markers.addMarker(new OpenLayers.Marker(position));
-        
+                                
+                                zoom = 10;
                                 map.setCenter(position, zoom);
                             </script>
                         </div>
